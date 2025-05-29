@@ -1,0 +1,46 @@
+{
+  "id": "question_172",
+  "number": 172,
+  "topic": "Topic 1",
+  "text": "You created an ML pipeline with multiple input parameters. You want to investigate the tradeoffs between different parameter combinations. The parameter options are\n•\tInput dataset\n•\tMax tree depth of the boosted tree regressor\n•\tOptimizer learning rate\n\nYou need to compare the pipeline performance of the different parameter combinations measured in F1 score, time to train, and model complexity. You want your approach to be reproducible, and track all pipeline runs on the same platform. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Use BigQueryML to create a boosted tree regressor, and use the hyperparameter tuning capability.\n2. Configure the hyperparameter syntax to select different input datasets: max tree depths, and optimizer learning rates. Choose the grid search option.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Create a Vertex AI pipeline with a custom model training job as part of the pipeline. Configure the pipeline’s parameters to include those you are investigating.\n2. In the custom training step, use the Bayesian optimization method with F1 score as the target to maximize.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1. Create a Vertex AI Workbench notebook for each of the different input datasets.\n2. In each notebook, run different local training jobs with different combinations of the max tree depth and optimizer learning rate parameters.\n3. After each notebook finishes, append the results to a BigQuery table.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1. Create an experiment in Vertex AI Experiments.\n2. Create a Vertex AI pipeline with a custom model training job as part of the pipeline. Configure the pipeline’s parameters to include those you are investigating.\n3. Submit multiple runs to the same experiment, using different values for the parameters.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 7,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:17:07.109946",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

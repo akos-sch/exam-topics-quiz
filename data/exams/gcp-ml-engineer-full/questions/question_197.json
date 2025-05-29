@@ -1,0 +1,46 @@
+{
+  "id": "question_197",
+  "number": 197,
+  "topic": "Topic 1",
+  "text": "You work as an analyst at a large banking firm. You are developing a robust scalable ML pipeline to tram several regression and classification models. Your primary focus for the pipeline is model interpretability. You want to productionize the pipeline as quickly as possible. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Tabular Workflow for Wide & Deep through Vertex AI Pipelines to jointly train wide linear models and deep neural networks",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use Google Kubernetes Engine to build a custom training pipeline for XGBoost-based models",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Tabular Workflow for TabNet through Vertex AI Pipelines to train attention-based models",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Use Cloud Composer to build the training pipelines for custom deep learning-based models",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 9,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:18:57.172884",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_223",
+  "number": 223,
+  "topic": "Topic 1",
+  "text": "You work for a pharmaceutical company based in Canada. Your team developed a BigQuery ML model to predict the number of flu infections for the next month in Canada. Weather data is published weekly, and flu infection statistics are published monthly. You need to configure a model retraining policy that minimizes cost. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Download the weather and flu data each week. Configure Cloud Scheduler to execute a Vertex AI pipeline to retrain the model weekly.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Download the weather and flu data each month. Configure Cloud Scheduler to execute a Vertex AI pipeline to retrain the model monthly.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Download the weather and flu data each week. Configure Cloud Scheduler to execute a Vertex AI pipeline to retrain the model every month.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Download the weather data each week, and download the flu data each month. Deploy the model to a Vertex AI endpoint with feature drift monitoring, and retrain the model if a monitoring alert is detected.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 13,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:20:48.624287",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

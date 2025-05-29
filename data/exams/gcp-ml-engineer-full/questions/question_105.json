@@ -1,0 +1,46 @@
+{
+  "id": "question_105",
+  "number": 105,
+  "topic": "Topic 1",
+  "text": "You work for a gaming company that develops massively multiplayer online (MMO) games. You built a TensorFlow model that predicts whether players will make in-app purchases of more than $10 in the next two weeks. The model’s predictions will be used to adapt each user’s game experience. User data is stored in BigQuery. How should you serve your model while optimizing cost, user experience, and ease of management?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Import the model into BigQuery ML. Make predictions using batch reading data from BigQuery, and push the data to Cloud SQL",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Deploy the model to Vertex AI Prediction. Make predictions using batch reading data from Cloud Bigtable, and push the data to Cloud SQL.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Embed the model in the mobile application. Make predictions after every in-app purchase event is published in Pub/Sub, and push the data to Cloud SQL.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Embed the model in the streaming Dataflow pipeline. Make predictions after every in-app purchase event is published in Pub/Sub, and push the data to Cloud SQL.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 29,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.6923
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:11:58.029933",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

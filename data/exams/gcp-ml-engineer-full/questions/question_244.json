@@ -1,0 +1,46 @@
+{
+  "id": "question_244",
+  "number": 244,
+  "topic": "Topic 1",
+  "text": "Your work for a textile manufacturing company. Your company has hundreds of machines, and each machine has many sensors. Your team used the sensory data to build hundreds of ML models that detect machine anomalies. Models are retrained daily, and you need to deploy these models in a cost-effective way. The models must operate 24/7 without downtime and make sub millisecond predictions. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Deploy a Dataflow batch pipeline and a Vertex AI Prediction endpoint.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Deploy a Dataflow batch pipeline with the Runlnference API, and use model refresh.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Deploy a Dataflow streaming pipeline and a Vertex AI Prediction endpoint with autoscaling.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Deploy a Dataflow streaming pipeline with the Runlnference API, and use automatic model refresh.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 19,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.7368421052631579
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:22:27.875649",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

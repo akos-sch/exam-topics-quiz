@@ -1,0 +1,46 @@
+{
+  "id": "question_306",
+  "number": 306,
+  "topic": "Topic 1",
+  "text": "You work for a large retailer, and you need to build a model to predict customer chum. The company has a dataset of historical customer data, including customer demographics purchase history, and website activity. You need to create the model in BigQuery ML and thoroughly evaluate its performance. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a linear regression model in BigQuery ML, and register the model in Vertex AI Model Registry. Use Vertex AI to evaluate the model performance.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create a logistic regression model in BigQuery ML, and register the model in Vertex AI Model Registry. Use ML.ARIMA_EVALUATE function to evaluate the model performance.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Create a linear regression model in BigQuery ML. Use the ML.EVALUATE function to evaluate the model performance.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Create a logistic regression model in BigQuery ML. Use the ML.CONFUSION_MATRIX function to evaluate the model performance.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 1,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:58.169111",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

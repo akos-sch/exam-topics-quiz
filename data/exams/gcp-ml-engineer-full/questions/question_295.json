@@ -1,0 +1,46 @@
+{
+  "id": "question_295",
+  "number": 295,
+  "topic": "Topic 1",
+  "text": "You work at a retail company, and are tasked with developing an ML model to predict product sales. Your company’s historical sales data is stored in BigQuery and includes features such as date, store location, product category, and promotion details. You need to choose the most effective combination of a BigQuery ML model and feature engineering to maximize prediction accuracy. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use a linear regression model. Perform one-hot encoding on categorical features, and create additional features based on the date, such as day of the week or month.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use a boosted tree model. Perform label encoding on categorical features, and transform the date column into numeric values.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use an autoencoder model. Perform label encoding on categorical features, and normalize the date column.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use a matrix factorization model. Perform one-hot encoding on categorical features, and create interaction features between the store location and product category variables.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 9,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.55
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:16.207595",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

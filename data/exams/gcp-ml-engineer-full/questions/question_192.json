@@ -1,0 +1,46 @@
+{
+  "id": "question_192",
+  "number": 192,
+  "topic": "Topic 1",
+  "text": "Your team has a model deployed to a Vertex AI endpoint. You have created a Vertex AI pipeline that automates the model training process and is triggered by a Cloud Function. You need to prioritize keeping the model up-to-date, but also minimize retraining costs. How should you configure retraining?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Configure Pub/Sub to call the Cloud Function when a sufficient amount of new data becomes available",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Configure a Cloud Scheduler job that calls the Cloud Function at a predetermined frequency that fits your team’s budget",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Enable model monitoring on the Vertex AI endpoint. Configure Pub/Sub to call the Cloud Function when anomalies are detected",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Enable model monitoring on the Vertex AI endpoint. Configure Pub/Sub to call the Cloud Function when feature drift is detected",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 8,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:18:37.106062",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

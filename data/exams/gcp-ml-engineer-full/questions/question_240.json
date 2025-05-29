@@ -1,0 +1,46 @@
+{
+  "id": "question_240",
+  "number": 240,
+  "topic": "Topic 1",
+  "text": "You work at a mobile gaming startup that creates online multiplayer games. Recently, your company observed an increase in players cheating in the games, leading to a loss of revenue and a poor user experience You built a binary classification model to determine whether a player cheated after a completed game session, and then send a message to other downstream systems to ban the player that cheated. Your model has performed well during testing, and you now need to deploy the model to production. You want your serving solution to provide immediate classifications after a completed game session to avoid further loss of revenue. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Import the model into Vertex AI Model Registry. Use the Vertex Batch Prediction service to run batch inference jobs.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Save the model files in a Cloud Storage bucket. Create a Cloud Function to read the model files and make online inference requests on the Cloud Function.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Save the model files in a VM. Load the model files each time there is a prediction request, and run an inference job on the VM",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Import the model into Vertex AI Model Registry. Create a Vertex AI endpoint that hosts the model, and make online inference requests.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 8,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:22:11.556722",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

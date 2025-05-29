@@ -1,0 +1,46 @@
+{
+  "id": "question_27",
+  "number": 27,
+  "topic": "Topic 1",
+  "text": "You are an ML engineer at a regulated insurance company. You are asked to develop an insurance approval model that accepts or rejects insurance applications from potential customers. What factors should you consider before building the model?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Redaction, reproducibility, and explainability",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Traceability, reproducibility, and explainability",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Federated learning, reproducibility, and explainability",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Differential privacy, federated learning, and explainability",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 35,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.6842
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:05:56.654000",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

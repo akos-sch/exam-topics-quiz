@@ -1,0 +1,46 @@
+{
+  "id": "question_316",
+  "number": 316,
+  "topic": "Topic 1",
+  "text": "You are developing an ML model on Vertex AI that needs to meet specific interpretability requirements for regulatory compliance. You want to use a combination of model architectures and modeling techniques to maximize accuracy and interpretability. How should you create the model?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use a convolutional neural network (CNN)-based deep learning model architecture, and use local interpretable model-agnostic explanations (LIME) for interpretability.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use a recurrent neural network (RNN)-based deep learning model architecture, and use integrated gradients for interpretability.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use a boosted decision tree-based model architecture, and use SHAP values for interpretability.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Use a long short-term memory (LSTM)-based model architecture, and use local interpretable model-agnostic explanations (LIME) for interpretability.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 1,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:27:36.896996",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

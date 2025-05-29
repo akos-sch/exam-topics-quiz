@@ -1,0 +1,46 @@
+{
+  "id": "question_142",
+  "number": 142,
+  "topic": "Topic 1",
+  "text": "You have built a model that is trained on data stored in Parquet files. You access the data through a Hive table hosted on Google Cloud. You preprocessed these data with PySpark and exported it as a CSV file into Cloud Storage. After preprocessing, you execute additional steps to train and evaluate your model. You want to parametrize this model training in Kubeflow Pipelines. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Remove the data transformation step from your pipeline.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Containerize the PySpark transformation step, and add it to your pipeline.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Add a ContainerOp to your pipeline that spins a Dataproc cluster, runs a transformation, and then saves the transformed data in Cloud Storage.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Deploy Apache Spark at a separate node pool in a Google Kubernetes Engine cluster. Add a ContainerOp to your pipeline that invokes a corresponding transformation job for this Spark instance.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 26,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.6923076923076923
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:14:52.748927",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

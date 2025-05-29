@@ -1,0 +1,46 @@
+{
+  "id": "question_163",
+  "number": 163,
+  "topic": "Topic 1",
+  "text": "You are an ML engineer at a retail company. You have built a model that predicts a coupon to offer an ecommerce customer at checkout based on the items in their cart. When a customer goes to checkout, your serving pipeline, which is hosted on Google Cloud, joins the customer's existing cart with a row in a BigQuery table that contains the customers' historic purchase behavior and uses that as the model's input. The web team is reporting that your model is returning predictions too slowly to load the coupon offer with the rest of the web page. How should you speed up your model's predictions?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Attach an NVIDIA P100 GPU to your deployed model’s instance.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use a low latency database for the customers’ historic purchase behavior.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Deploy your model to more instances behind a load balancer to distribute traffic.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Create a materialized view in BigQuery with the necessary data for predictions.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 30,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.53
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:16:25.842791",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

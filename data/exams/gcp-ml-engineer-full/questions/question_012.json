@@ -1,0 +1,46 @@
+{
+  "id": "question_12",
+  "number": 12,
+  "topic": "Topic 1",
+  "text": "You are designing an architecture with a serverless ML system to enrich customer support tickets with informative metadata before they are routed to a support agent. You need a set of models to predict ticket priority, predict ticket resolution time, and perform sentiment analysis to help agents make strategic decisions when they process support requests. Tickets are not expected to have any domain-specific terms or jargon.\nThe proposed architecture has the following flow:\n\nWhich endpoints should the Enrichment Cloud Functions call?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1 = AI Platform, 2 = AI Platform, 3 = AutoML Vision",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1 = AI Platform, 2 = AI Platform, 3 = AutoML Natural Language",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1 = AI Platform, 2 = AI Platform, 3 = Cloud Natural Language API",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "1 = Cloud Natural Language API, 2 = AI Platform, 3 = Cloud Vision API",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 25,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.96
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:04:41.389428",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

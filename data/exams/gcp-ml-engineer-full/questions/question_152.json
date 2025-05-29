@@ -1,0 +1,46 @@
+{
+  "id": "question_152",
+  "number": 152,
+  "topic": "Topic 1",
+  "text": "You are developing an ML model using a dataset with categorical input variables. You have randomly split half of the data into training and test sets. After applying one-hot encoding on the categorical variables in the training set, you discover that one categorical variable is missing from the test set. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use sparse representation in the test set.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Randomly redistribute the data, with 70% for the training set and 30% for the test set",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Apply one-hot encoding on the categorical variables in the test data",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Collect more data representing all categories",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 23,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.75
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:15:40.568247",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

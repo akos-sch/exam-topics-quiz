@@ -1,0 +1,46 @@
+{
+  "id": "question_271",
+  "number": 271,
+  "topic": "Topic 1",
+  "text": "You recently created a new Google Cloud project. After testing that you can submit a Vertex AI Pipeline job from the Cloud Shell, you want to use a Vertex AI Workbench user-managed notebook instance to run your code from that instance. You created the instance and ran the code but this time the job fails with an insufficient permissions error. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Ensure that the Workbench instance that you created is in the same region of the Vertex AI Pipelines resources you will use.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Ensure that the Vertex AI Workbench instance is on the same subnetwork of the Vertex AI Pipeline resources that you will use.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Ensure that the Vertex AI Workbench instance is assigned the Identity and Access Management (IAM) Vertex AI User role.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Ensure that the Vertex AI Workbench instance is assigned the Identity and Access Management (IAM) Notebooks Runner role.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 17,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.8823529411764706
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:24:38.188816",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_247",
+  "number": 247,
+  "topic": "Topic 1",
+  "text": "You built a deep learning-based image classification model by using on-premises data. You want to use Vertex AI to deploy the model to production. Due to security concerns, you cannot move your data to the cloud. You are aware that the input data distribution might change over time. You need to detect model performance changes in production. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Vertex Explainable AI for model explainability. Configure feature-based explanations.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use Vertex Explainable AI for model explainability. Configure example-based explanations.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Create a Vertex AI Model Monitoring job. Enable training-serving skew detection for your model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Create a Vertex AI Model Monitoring job. Enable feature attribution skew and drift detection for your model.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 22,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.7727
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:22:49.359565",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

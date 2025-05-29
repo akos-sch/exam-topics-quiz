@@ -1,0 +1,46 @@
+{
+  "id": "question_116",
+  "number": 116,
+  "topic": "Topic 1",
+  "text": "You work for a biotech startup that is experimenting with deep learning ML models based on properties of biological organisms. Your team frequently works on early-stage experiments with new architectures of ML models, and writes custom TensorFlow ops in C++. You train your models on large datasets and large batch sizes. Your typical batch size has 1024 examples, and each example is about 1 MB in size. The average size of a network with all weights and embeddings is 20 GB. What hardware should you choose for your models?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A cluster with 2 n1-highcpu-64 machines, each with 8 NVIDIA Tesla V100 GPUs (128 GB GPU memory in total), and a n1-highcpu-64 machine with 64 vCPUs and 58 GB RAM",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "A cluster with 2 a2-megagpu-16g machines, each with 16 NVIDIA Tesla A100 GPUs (640 GB GPU memory in total), 96 vCPUs, and 1.4 TB RAM",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "A cluster with an n1-highcpu-64 machine with a v2-8 TPU and 64 GB RAM",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "A cluster with 4 n1-highcpu-96 machines, each with 96 vCPUs and 86 GB RAM",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 27,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.6666666666666666
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:12:55.120761",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

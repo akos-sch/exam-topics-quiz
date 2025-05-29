@@ -1,0 +1,46 @@
+{
+  "id": "question_99",
+  "number": 99,
+  "topic": "Topic 1",
+  "text": "You are an ML engineer at a travel company. You have been researching customers’ travel behavior for many years, and you have deployed models that predict customers’ vacation patterns. You have observed that customers’ vacation destinations vary based on seasonality and holidays; however, these seasonal variations are similar across years. You want to quickly and easily store and compare the model versions and performance statistics across years. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Store the performance statistics in Cloud SQL. Query that database to compare the performance statistics across the model versions.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create versions of your models for each season per year in Vertex AI. Compare the performance statistics across the models in the Evaluate tab of the Vertex AI UI.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Store the performance statistics of each pipeline run in Kubeflow under an experiment for each season per year. Compare the results across the experiments in the Kubeflow UI.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Store the performance statistics of each version of your models using seasons and years as events in Vertex ML Metadata. Compare the results across the slices.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 19,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.5263157894736842
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:11:29.944724",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

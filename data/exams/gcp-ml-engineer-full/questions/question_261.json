@@ -1,0 +1,46 @@
+{
+  "id": "question_261",
+  "number": 261,
+  "topic": "Topic 1",
+  "text": "You are developing a recommendation engine for an online clothing store. The historical customer transaction data is stored in BigQuery and Cloud Storage. You need to perform exploratory data analysis (EDA), preprocessing and model training. You plan to rerun these EDA, preprocessing, and training steps as you experiment with different types of algorithms. You want to minimize the cost and development effort of running these steps as you experiment. How should you configure the environment?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a Vertex AI Workbench user-managed notebook using the default VM instance, and use the %%bigquerv magic commands in Jupyter to query the tables.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create a Vertex AI Workbench managed notebook to browse and query the tables directly from the JupyterLab interface.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Create a Vertex AI Workbench user-managed notebook on a Dataproc Hub, and use the %%bigquery magic commands in Jupyter to query the tables.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Create a Vertex AI Workbench managed notebook on a Dataproc cluster, and use the spark-bigquery-connector to access the tables.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 12,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.83
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:23:52.690756",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

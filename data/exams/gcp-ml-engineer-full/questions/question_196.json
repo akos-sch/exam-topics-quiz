@@ -1,0 +1,46 @@
+{
+  "id": "question_196",
+  "number": 196,
+  "topic": "Topic 1",
+  "text": "You work for a company that captures live video footage of checkout areas in their retail stores. You need to use the live video footage to build a model to detect the number of customers waiting for service in near real time. You want to implement a solution quickly and with minimal effort. How should you build the model?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the Vertex AI Vision Occupancy Analytics model.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use the Vertex AI Vision Person/vehicle detector model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Train an AutoML object detection model on an annotated dataset by using Vertex AutoML.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Train a Seq2Seq+ object detection model on an annotated dataset by using Vertex AutoML.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 16,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.875
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:18:53.617964",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

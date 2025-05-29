@@ -1,0 +1,46 @@
+{
+  "id": "question_304",
+  "number": 304,
+  "topic": "Topic 1",
+  "text": "You are an AI engineer that works for a popular video streaming platform. You built a classification model using PyTorch to predict customer churn. Each week, the customer retention team plans to contact customers that have been identified as at risk of churning with personalized offers. You want to deploy the model while minimizing maintenance effort. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Vertex AI’s prebuilt containers for prediction. Deploy the container on Cloud Run to generate online predictions.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use Vertex AI’s prebuilt containers for prediction. Deploy the model on Google Kubernetes Engine (GKE), and configure the model for batch prediction.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Deploy the model to a Vertex AI endpoint, and configure the model for batch prediction. Schedule the batch prediction to run weekly.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Deploy the model to a Vertex AI endpoint, and configure the model for online prediction. Schedule a job to query this endpoint weekly.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 2,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:50.750189",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

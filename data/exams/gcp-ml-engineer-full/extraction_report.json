@@ -1,0 +1,16 @@
+{
+  "exam_info": {
+    "name": "gcp-ml-engineer-full",
+    "vendor": "ExamTopics",
+    "code": "gcp-ml-engineer-full",
+    "total_questions": 321,
+    "url": "file:///root/aliz-projects/cert-examtopics-quiz/data/input (7 files)",
+    "last_updated": "2025-05-29T12:27:56.613613"
+  },
+  "questions_extracted": 321,
+  "discussions_extracted": 321,
+  "extraction_errors": [],
+  "start_time": "2025-05-29T12:03:49.884009",
+  "end_time": "2025-05-29T12:27:56.613851",
+  "success": true
+}

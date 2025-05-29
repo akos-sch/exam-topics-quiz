@@ -1,0 +1,46 @@
+{
+  "id": "question_216",
+  "number": 216,
+  "topic": "Topic 1",
+  "text": "You are creating a model training pipeline to predict sentiment scores from text-based product reviews. You want to have control over how the model parameters are tuned, and you will deploy the model to an endpoint after it has been trained. You will use Vertex AI Pipelines to run the pipeline. You need to decide which Google Cloud pipeline components to use. What components should you choose?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "TabularDatasetCreateOp, CustomTrainingJobOp, and EndpointCreateOp",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "TextDatasetCreateOp, AutoMLTextTrainingOp, and EndpointCreateOp",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "TabularDatasetCreateOp. AutoMLTextTrainingOp, and ModelDeployOp",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "TextDatasetCreateOp, CustomTrainingJobOp, and ModelDeployOp",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 9,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:20:20.464038",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

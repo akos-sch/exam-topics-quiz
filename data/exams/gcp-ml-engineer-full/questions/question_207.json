@@ -1,0 +1,46 @@
+{
+  "id": "question_207",
+  "number": 207,
+  "topic": "Topic 1",
+  "text": "You work for a hospital that wants to optimize how it schedules operations. You need to create a model that uses the relationship between the number of surgeries scheduled and beds used. You want to predict how many beds will be needed for patients each day in advance based on the scheduled surgeries. You have one year of data for the hospital organized in 365 rows.\n\nThe data includes the following variables for each day:\n•\tNumber of scheduled surgeries\n•\tNumber of beds occupied\n•\tDate\n\nYou want to maximize the speed of model development and testing. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a BigQuery table. Use BigQuery ML to build a regression model, with number of beds as the target variable, and number of scheduled surgeries and date features (such as day of week) as the predictors.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create a BigQuery table. Use BigQuery ML to build an ARIMA model, with number of beds as the target variable, and date as the time variable.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Create a Vertex AI tabular dataset. Train an AutoML regression model, with number of beds as the target variable, and number of scheduled minor surgeries and date features (such as day of the week) as the predictors.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Create a Vertex AI tabular dataset. Train a Vertex AI AutoML Forecasting model, with number of beds as the target variable, number of scheduled surgeries as a covariate and date as the time variable.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 26,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.625
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:19:42.804815",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

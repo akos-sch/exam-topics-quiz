@@ -1,0 +1,46 @@
+{
+  "id": "question_272",
+  "number": 272,
+  "topic": "Topic 1",
+  "text": "You work for a semiconductor manufacturing company. You need to create a real-time application that automates the quality control process. High-definition images of each semiconductor are taken at the end of the assembly line in real time. The photos are uploaded to a Cloud Storage bucket along with tabular data that includes each semiconductor’s batch number, serial number, dimensions, and weight. You need to configure model training and serving while maximizing model accuracy. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Vertex AI Data Labeling Service to label the images, and tram an AutoML image classification model. Deploy the model, and configure Pub/Sub to publish a message when an image is categorized into the failing class.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use Vertex AI Data Labeling Service to label the images, and train an AutoML image classification model. Schedule a daily batch prediction job that publishes a Pub/Sub message when the job completes.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Convert the images into an embedding representation. Import this data into BigQuery, and train a BigQuery ML K-means clustering model with two clusters. Deploy the model and configure Pub/Sub to publish a message when a semiconductor’s data is categorized into the failing cluster.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Import the tabular data into BigQuery, use Vertex AI Data Labeling Service to label the data and train an AutoML tabular classification model. Deploy the model, and configure Pub/Sub to publish a message when a semiconductor’s data is categorized into the failing class.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 10,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.9
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:24:42.620979",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_113",
+  "number": 113,
+  "topic": "Topic 1",
+  "text": "You need to analyze user activity data from your company’s mobile applications. Your team will use BigQuery for data analysis, transformation, and experimentation with ML algorithms. You need to ensure real-time ingestion of the user activity data into BigQuery. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Configure Pub/Sub to stream the data into BigQuery.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Run an Apache Spark streaming job on Dataproc to ingest the data into BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Run a Dataflow streaming job to ingest the data into BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Configure Pub/Sub and a Dataflow streaming job to ingest the data into BigQuery,",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 46,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.59
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:12:39.631399",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

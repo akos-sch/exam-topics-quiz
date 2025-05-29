@@ -1,0 +1,46 @@
+{
+  "id": "question_106",
+  "number": 106,
+  "topic": "Topic 1",
+  "text": "You are building a linear regression model on BigQuery ML to predict a customer’s likelihood of purchasing your company’s products. Your model uses a city name variable as a key predictive component. In order to train and serve the model, your data must be organized in columns. You want to prepare your data using the least amount of coding while maintaining the predictable variables. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use TensorFlow to create a categorical variable with a vocabulary list. Create the vocabulary file, and upload it as part of your model to BigQuery ML.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create a new view with BigQuery that does not include a column with city information",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Cloud Data Fusion to assign each city to a region labeled as 1, 2, 3, 4, or 5, and then use that number to represent the city in the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use Dataprep to transform the state column using a one-hot encoding method, and make each city a column with binary values.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 18,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.7142857142857143
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:12:05.754932",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_293",
+  "number": 293,
+  "topic": "Topic 1",
+  "text": "You are developing a batch process that will train a custom model and perform predictions. You need to be able to show lineage for both your model and the batch predictions. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Upload your dataset to BigQuery.<br/>2. Use a Vertex AI custom training job to train your model.<br/>3. Generate predictions by using Vertex AI SDK custom prediction routines.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Use Vertex AI Experiments to evaluate model performance during training.<br/>2. Register your model in Vertex AI Model Registry.<br/>3. Generate batch predictions in Vertex AI.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1. Create a Vertex AI managed dataset.<br/>2. Use a Vertex AI training pipeline to train your model.<br/>3. Generate batch predictions in Vertex AI.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1. Use a Vertex AI Pipelines custom training job component to train your model.<br/>2. Generate predictions by using a Vertex AI Pipelines model batch predict component.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 4,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:08.241570",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

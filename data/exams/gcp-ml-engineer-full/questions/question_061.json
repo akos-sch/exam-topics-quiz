@@ -1,0 +1,46 @@
+{
+  "id": "question_61",
+  "number": 61,
+  "topic": "Topic 1",
+  "text": "You are using transfer learning to train an image classifier based on a pre-trained EfficientNet model. Your training dataset has 20,000 images. You plan to retrain the model once per day. You need to minimize the cost of infrastructure. What platform components and configuration environment should you use?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A Deep Learning VM with 4 V100 GPUs and local storage.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "A Deep Learning VM with 4 V100 GPUs and Cloud Storage.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "A Google Kubernetes Engine cluster with a V100 GPU Node Pool and an NFS Server",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "An AI Platform Training job using a custom scale tier with 4 V100 GPUs and Cloud Storage",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 36,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.756
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:08:36.396068",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

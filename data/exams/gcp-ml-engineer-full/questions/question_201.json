@@ -1,0 +1,46 @@
+{
+  "id": "question_201",
+  "number": 201,
+  "topic": "Topic 1",
+  "text": "You developed a Vertex AI pipeline that trains a classification model on data stored in a large BigQuery table. The pipeline has four steps, where each step is created by a Python function that uses the KubeFlow v2 API. The components have the following names:<br/><br/><img src=\"https://img.examtopics.com/professional-machine-learning-engineer/image3.png\"/><br/><br/>You launch your Vertex AI pipeline as the following:<br/><br/><img src=\"https://img.examtopics.com/professional-machine-learning-engineer/image4.png\"/><br/><br/>You perform many model iterations by adjusting the code and parameters of the training step. You observe high costs associated with the development, particularly the data export and preprocessing steps. You need to reduce model development costs. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Change the components’ YAML filenames to export.yaml, preprocess,yaml, f \"train-<br/>{dt}.yaml\", f\"calibrate-{dt).vaml\".",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Add the {\"kubeflow.v1.caching\": True} parameter to the set of params provided to your PipelineJob.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Move the first step of your pipeline to a separate step, and provide a cached path to Cloud Storage as an input to the main pipeline.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Change the name of the pipeline to f\"my-awesome-pipeline-{dt}\".",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 21,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.5238
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:19:19.153864",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

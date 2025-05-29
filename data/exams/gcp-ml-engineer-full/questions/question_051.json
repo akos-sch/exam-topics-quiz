@@ -1,0 +1,46 @@
+{
+  "id": "question_51",
+  "number": 51,
+  "topic": "Topic 1",
+  "text": "You work on a growing team of more than 50 data scientists who all use AI Platform. You are designing a strategy to organize your jobs, models, and versions in a clean and scalable way. Which strategy should you choose?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Set up restrictive IAM permissions on the AI Platform notebooks so that only a single user or group can access a given instance.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Separate each data scientist's work into a different project to ensure that the jobs, models, and versions created by each data scientist are accessible only to that user.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use labels to organize resources into descriptive categories. Apply a label to each created resource so that users can filter the results by label when viewing or monitoring the resources.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Set up a BigQuery sink for Cloud Logging logs that is appropriately filtered to capture information about AI Platform resource usage. In BigQuery, create a SQL view that maps users to the resources they are using",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 8,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:07:47.152511",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

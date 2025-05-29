@@ -1,0 +1,46 @@
+{
+  "id": "question_39",
+  "number": 39,
+  "topic": "Topic 1",
+  "text": "You work with a data engineering team that has developed a pipeline to clean your dataset and save it in a Cloud Storage bucket. You have created an ML model and want to use the data to refresh your model as soon as new data is available. As part of your CI/CD workflow, you want to automatically run a KubeflowPipelines training job on Google Kubernetes Engine (GKE). How should you architect this workflow?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Configure your pipeline with Dataflow, which saves the files in Cloud Storage. After the file is saved, start the training job on a GKE cluster.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use App Engine to create a lightweight python client that continuously polls Cloud Storage for new files. As soon as a file arrives, initiate the training job.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Configure a Cloud Storage trigger to send a message to a Pub/Sub topic when a new file is available in a storage bucket. Use a Pub/Sub-triggered Cloud Function to start the training job on a GKE cluster.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Use Cloud Scheduler to schedule jobs at a regular interval. For the first step of the job, check the timestamp of objects in your Cloud Storage bucket. If there are no new files since the last run, abort the job.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 9,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.8888888888888888
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:06:46.924239",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

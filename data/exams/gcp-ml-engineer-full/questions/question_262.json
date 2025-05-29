@@ -1,0 +1,46 @@
+{
+  "id": "question_262",
+  "number": 262,
+  "topic": "Topic 1",
+  "text": "You recently deployed a model to a Vertex AI endpoint and set up online serving in Vertex AI Feature Store. You have configured a daily batch ingestion job to update your featurestore. During the batch ingestion jobs, you discover that CPU utilization is high in your featurestore’s online serving nodes and that feature retrieval latency is high. You need to improve online serving performance during the daily batch ingestion. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Schedule an increase in the number of online serving nodes in your featurestore prior to the batch ingestion jobs",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Enable autoscaling of the online serving nodes in your featurestore",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Enable autoscaling for the prediction nodes of your DeployedModel in the Vertex AI endpoint",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Increase the worker_count in the ImportFeatureValues request of your batch ingestion job",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 12,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.58
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:23:56.565101",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_57",
+  "number": 57,
+  "topic": "Topic 1",
+  "text": "Your company manages a video sharing website where users can watch and upload videos. You need to create an ML model to predict which newly uploaded videos will be the most popular so that those videos can be prioritized on your company's website. Which result should you use to determine whether the model is successful?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The model predicts videos as popular if the user who uploads them has over 10,000 likes.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "The model predicts 97.5% of the most popular clickbait videos measured by number of clicks.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "The model predicts 95% of the most popular videos measured by watch time within 30 days of being uploaded.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "The Pearson correlation coefficient between the log-transformed number of views after 7 days and 30 days after publication is equal to 0.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 6,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:08:12.339128",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

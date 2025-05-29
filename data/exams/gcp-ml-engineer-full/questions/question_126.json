@@ -1,0 +1,46 @@
+{
+  "id": "question_126",
+  "number": 126,
+  "topic": "Topic 1",
+  "text": "You are training an object detection model using a Cloud TPU v2. Training time is taking longer than expected. Based on this simplified trace obtained with a Cloud TPU profile, what action should you take to decrease training time in a cost-efficient way?\n\n",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Move from Cloud TPU v2 to Cloud TPU v3 and increase batch size.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Move from Cloud TPU v2 to 8 NVIDIA V100 GPUs and increase batch size.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Rewrite your input function to resize and reshape the input images.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Rewrite your input function using parallel reads, parallel processing, and prefetch.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 18,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:13:34.932841",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

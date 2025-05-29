@@ -1,0 +1,46 @@
+{
+  "id": "question_190",
+  "number": 190,
+  "topic": "Topic 1",
+  "text": "You recently deployed a model to a Vertex AI endpoint. Your data drifts frequently, so you have enabled request-response logging and created a Vertex AI Model Monitoring job. You have observed that your model is receiving higher traffic than expected. You need to reduce the model monitoring cost while continuing to quickly detect drift. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Replace the monitoring job with a DataFlow pipeline that uses TensorFlow Data Validation (TFDV)",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Replace the monitoring job with a custom SQL script to calculate statistics on the features and predictions in BigQuery",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Decrease the sample_rate parameter in the RandomSampleConfig of the monitoring job",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Increase the monitor_interval parameter in the ScheduleConfig of the monitoring job",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 9,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:18:29.157577",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

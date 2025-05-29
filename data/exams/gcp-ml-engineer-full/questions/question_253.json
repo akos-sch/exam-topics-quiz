@@ -1,0 +1,46 @@
+{
+  "id": "question_253",
+  "number": 253,
+  "topic": "Topic 1",
+  "text": "You work for a delivery company. You need to design a system that stores and manages features such as parcels delivered and truck locations over time. The system must retrieve the features with low latency and feed those features into a model for online prediction. The data science team will retrieve historical data at a specific point in time for model training. You want to store the features with minimal effort. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Store features in Bigtable as key/value data.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Store features in Vertex AI Feature Store.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Store features as a Vertex AI dataset, and use those features to train the models hosted in Vertex AI endpoints.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Store features in BigQuery timestamp partitioned tables, and use the BigQuery Storage Read API to serve the features.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 9,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:23:19.472261",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

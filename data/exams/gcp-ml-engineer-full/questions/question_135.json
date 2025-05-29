@@ -1,0 +1,46 @@
+{
+  "id": "question_135",
+  "number": 135,
+  "topic": "Topic 1",
+  "text": "You work for the AI team of an automobile company, and you are developing a visual defect detection model using TensorFlow and Keras. To improve your model performance, you want to incorporate some image augmentation functions such as translation, cropping, and contrast tweaking. You randomly apply these functions to each training batch. You want to optimize your data processing pipeline for run time and compute resources utilization. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Embed the augmentation functions dynamically in the tf.Data pipeline.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Embed the augmentation functions dynamically as part of Keras generators.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Dataflow to create all possible augmentations, and store them as TFRecords.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use Dataflow to create the augmentations dynamically per training run, and stage them as TFRecords.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 23,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.826
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:14:16.211781",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

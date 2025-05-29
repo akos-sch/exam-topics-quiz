@@ -1,0 +1,46 @@
+{
+  "id": "question_310",
+  "number": 310,
+  "topic": "Topic 1",
+  "text": "You recently deployed an image classification model on Google Cloud. You used Cloud Build to build a CI/CD pipeline for the model. You need to ensure that the model stays up-to-date with data and code changes by using an efficient retraining process. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Cloud Run functions to monitor data drift in real time and trigger a Vertex AI Training job to retrain the model when data drift exceeds a predetermined threshold.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Configure a Git repository trigger in Cloud Build to initiate retraining when there are new code commits to the model's repository and a Pub/Sub trigger when there is new data in Cloud Storage.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Use Cloud Scheduler to initiate a daily retraining job in Vertex AI Pipelines.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Configure Cloud Composer to orchestrate a weekly retraining job that includes data extraction from BigQuery, model retraining with Vertex AI Training, and model deployment to a Vertex AI endpoint.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 1,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:27:14.024507",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

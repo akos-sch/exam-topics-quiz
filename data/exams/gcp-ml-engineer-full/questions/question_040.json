@@ -1,0 +1,52 @@
+{
+  "id": "question_40",
+  "number": 40,
+  "topic": "Topic 1",
+  "text": "You have a functioning end-to-end ML pipeline that involves tuning the hyperparameters of your ML model using AI Platform, and then using the best-tuned parameters for training. Hypertuning is taking longer than expected and is delaying the downstream processes. You want to speed up the tuning job without significantly compromising its effectiveness. Which actions should you take? (Choose two.)",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Decrease the number of parallel trials.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Decrease the range of floating-point values.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Set the early stopping parameter to TRUE.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Change the search algorithm from Bayesian search to random search.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "E",
+      "text": "Decrease the maximum number of trials during subsequent training phases.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "CE",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 39,
+    "vote_distribution": {},
+    "most_voted_answer": "CE",
+    "confidence_score": 0.99
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:06:50.666312",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

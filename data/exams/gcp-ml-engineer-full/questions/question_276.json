@@ -1,0 +1,46 @@
+{
+  "id": "question_276",
+  "number": 276,
+  "topic": "Topic 1",
+  "text": "You work at a gaming startup that has several terabytes of structured data in Cloud Storage. This data includes gameplay time data, user metadata, and game metadata. You want to build a model that recommends new games to users that requires the least amount of coding. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Load the data in BigQuery. Use BigQuery ML to train an Autoencoder model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Load the data in BigQuery. Use BigQuery ML to train a matrix factorization model.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Read data to a Vertex AI Workbench notebook. Use TensorFlow to train a two-tower model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Read data to a Vertex AI Workbench notebook. Use TensorFlow to train a matrix factorization model.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 11,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.9090909090909091
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:24:58.571481",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

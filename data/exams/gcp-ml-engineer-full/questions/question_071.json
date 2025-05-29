@@ -1,0 +1,46 @@
+{
+  "id": "question_71",
+  "number": 71,
+  "topic": "Topic 1",
+  "text": "You need to train a regression model based on a dataset containing 50,000 records that is stored in BigQuery. The data includes a total of 20 categorical and numerical features with a target variable that can include negative values. You need to minimize effort and training time while maximizing model performance. What approach should you take to train this regression model?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a custom TensorFlow DNN model",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use BQML XGBoost regression to train the model.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Use AutoML Tables to train the model without early stopping.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use AutoML Tables to train the model with RMSLE as the optimization objective.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 15,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.8666666666666667
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:16.847755",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

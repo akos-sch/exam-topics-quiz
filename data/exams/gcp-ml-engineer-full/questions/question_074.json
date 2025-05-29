@@ -1,0 +1,46 @@
+{
+  "id": "question_74",
+  "number": 74,
+  "topic": "Topic 1",
+  "text": "You have deployed a model on Vertex AI for real-time inference. During an online prediction request, you get an “Out of Memory” error. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use batch prediction mode instead of online mode.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Send the request again with a smaller batch of instances.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Use base64 to encode your data before using it for prediction.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Apply for a quota increase for the number of prediction requests.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 31,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.967741935483871
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:27.848192",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

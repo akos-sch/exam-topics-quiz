@@ -1,0 +1,46 @@
+{
+  "id": "question_77",
+  "number": 77,
+  "topic": "Topic 1",
+  "text": "You need to execute a batch prediction on 100 million records in a BigQuery table with a custom TensorFlow DNN regressor model, and then store the predicted results in a BigQuery table. You want to minimize the effort required to build this inference pipeline. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Import the TensorFlow model with BigQuery ML, and run the ml.predict function.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use the TensorFlow BigQuery reader to load the data, and use the BigQuery API to write the results to BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Create a Dataflow pipeline to convert the data in BigQuery to TFRecords. Run a batch inference on Vertex AI Prediction, and write the results to BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Load the TensorFlow SavedModel in a Dataflow pipeline. Use the BigQuery I/O connector with a custom function to perform the inference within the pipeline, and write the results to BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 23,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.75
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:39.761602",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

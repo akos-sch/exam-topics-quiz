@@ -1,0 +1,46 @@
+{
+  "id": "question_103",
+  "number": 103,
+  "topic": "Topic 1",
+  "text": "You recently developed a deep learning model using Keras, and now you are experimenting with different training strategies. First, you trained the model using a single GPU, but the training process was too slow. Next, you distributed the training across 4 GPUs using tf.distribute.MirroredStrategy (with no other changes), but you did not observe a decrease in training time. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Distribute the dataset with tf.distribute.Strategy.experimental_distribute_dataset",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create a custom training loop.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use a TPU with tf.distribute.TPUStrategy.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Increase the batch size.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 39,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.675
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:11:49.725192",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

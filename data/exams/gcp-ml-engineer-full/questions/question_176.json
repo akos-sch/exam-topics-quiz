@@ -1,0 +1,46 @@
+{
+  "id": "question_176",
+  "number": 176,
+  "topic": "Topic 1",
+  "text": "You work for a food product company. Your company’s historical sales data is stored in BigQuery.You need to use Vertex AI’s custom training service to train multiple TensorFlow models that read the data from BigQuery and predict future sales. You plan to implement a data preprocessing algorithm that performs mm-max scaling and bucketing on a large number of features before you start experimenting with the models. You want to minimize preprocessing time, cost, and development effort. How should you configure this workflow?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Write the transformations into Spark that uses the spark-bigquery-connector, and use Dataproc to preprocess the data.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Write SQL queries to transform the data in-place in BigQuery.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Add the transformations as a preprocessing layer in the TensorFlow models.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Create a Dataflow pipeline that uses the BigQuerylO connector to ingest the data, process it, and write it back to BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 8,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.875
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:17:27.717953",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

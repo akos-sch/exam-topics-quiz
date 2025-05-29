@@ -1,0 +1,46 @@
+{
+  "id": "question_296",
+  "number": 296,
+  "topic": "Topic 1",
+  "text": "Your organization’s employee onboarding team wants you to build an interactive self-help tool for new employees. The tool needs to receive queries from users and provide answers from the organization’s internal documentation. This documentation is spread across standalone documents such as PDF files. You want to build a solution quickly while minimizing maintenance overhead. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a custom chatbot user interface hosted on App Engine. Use Vertex AI to fine-tune a Gemini model on the organization’s internal documentation. Send users’ queries to the fine-tuned model by using the custom chatbot and return the model’s responses to the users.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Deploy an internal website to a Google Kubernetes Engine (GKE) cluster. Build a search index by ingesting all of the organization’s internal documentation. Use Vertex AI Vector Search to implement a semantic search that retrieves results from the search index based on the query entered into the search box.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Vertex AI Agent Builder to create an agent. Securely index the organization’s internal documentation to the agent’s datastore. Send users’ queries to the agent and return the agent’s grounded responses to the users.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Deploy an internal website to a Google Kubernetes Engine (GKE) cluster. Organize the relevant internal documentation into sections. Collect user feedback on website content and store it in BigQuery. Request that the onboarding team regularly update the links based on user feedback.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 3,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:20.467972",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

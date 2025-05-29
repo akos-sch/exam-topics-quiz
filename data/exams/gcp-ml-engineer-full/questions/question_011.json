@@ -1,0 +1,46 @@
+{
+  "id": "question_11",
+  "number": 11,
+  "topic": "Topic 1",
+  "text": "You are designing an ML recommendation model for shoppers on your company's ecommerce website. You will use Recommendations AI to build, test, and deploy your system. How should you develop recommendations that increase revenue while following best practices?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the ג€Other Products You May Likeג€ recommendation type to increase the click-through rate.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use the ג€Frequently Bought Togetherג€ recommendation type to increase the shopping cart size for each order.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Import your user events and then your product catalog to make sure you have the highest quality event stream.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Because it will take time to collect and record product data, use placeholder values for the product catalog to test the viability of the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 11,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.909
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:04:37.730801",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,12 @@
+quiz:
+  default_question_count: 10
+  time_limit: 1800  # 30 minutes
+  randomize_questions: true
+  randomize_choices: false
+  show_explanations: true
+
+display:
+  show_progress: true
+  show_timer: true
+  clear_screen: true
+  color_output: true

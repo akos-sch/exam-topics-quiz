@@ -1,0 +1,46 @@
+{
+  "id": "question_32",
+  "number": 32,
+  "topic": "Topic 1",
+  "text": "You developed an ML model with AI Platform, and you want to move it to production. You serve a few thousand queries per second and are experiencing latency issues. Incoming requests are served by a load balancer that distributes them across multiple Kubeflow CPU-only pods running on Google Kubernetes Engine\n(GKE). Your goal is to improve the serving latency without changing the underlying infrastructure. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Significantly increase the max_batch_size TensorFlow Serving parameter.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Switch to the tensorflow-model-server-universal version of TensorFlow Serving.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Significantly increase the max_enqueued_batches TensorFlow Serving parameter.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Recompile TensorFlow Serving using the source to support CPU-specific optimizations. Instruct GKE to choose an appropriate baseline minimum CPU platform for serving nodes.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 44,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.5714285714285714
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:06:19.873181",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

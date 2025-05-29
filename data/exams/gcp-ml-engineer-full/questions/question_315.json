@@ -1,0 +1,46 @@
+{
+  "id": "question_315",
+  "number": 315,
+  "topic": "Topic 1",
+  "text": "You are building an ML pipeline to process and analyze both steaming and batch datasets. You need the pipeline to handle data validation, preprocessing, model training, and model deployment in a consistent and automated way. You want to design an efficient and scalable solution that captures model training metadata and is easily reproducible. You want to be able to reuse custom components for different parts of your pipeline. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Cloud Composer for distributed processing of batch and streaming data in the pipeline.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use Dataflow for distributed processing of batch and streaming data in the pipeline.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Cloud Build to build and push Docker images for each pipeline component.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Implement an orchestration framework such as Kubeflow Pipelines or Vertex AI Pipelines.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 1,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:27:33.094991",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

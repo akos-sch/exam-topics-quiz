@@ -1,0 +1,46 @@
+{
+  "id": "question_212",
+  "number": 212,
+  "topic": "Topic 1",
+  "text": "You are pre-training a large language model on Google Cloud. This model includes custom TensorFlow operations in the training loop. Model training will use a large batch size, and you expect training to take several weeks. You need to configure a training architecture that minimizes both training time and compute costs. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Implement 8 workers of a2-megagpu-16g machines by using tf.distribute.MultiWorkerMirroredStrategy.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Implement a TPU Pod slice with -accelerator-type=v4-l28 by using tf.distribute.TPUStrategy.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Implement 16 workers of c2d-highcpu-32 machines by using tf.distribute.MirroredStrategy.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Implement 16 workers of a2-highgpu-8g machines by using tf.distribute.MultiWorkerMirroredStrategy.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 35,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.36
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:20:05.579552",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

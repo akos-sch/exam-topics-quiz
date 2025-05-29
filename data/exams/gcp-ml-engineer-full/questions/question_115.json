@@ -1,0 +1,46 @@
+{
+  "id": "question_115",
+  "number": 115,
+  "topic": "Topic 1",
+  "text": "You are building an ML model to predict trends in the stock market based on a wide range of factors. While exploring the data, you notice that some features have a large range. You want to ensure that the features with the largest magnitude don’t overfit the model. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Standardize the data by transforming it with a logarithmic function.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Apply a principal component analysis (PCA) to minimize the effect of any particular feature.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use a binning strategy to replace the magnitude of each feature with the appropriate bin number.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Normalize the data by scaling it to have values between 0 and 1.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 43,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.6136363636363636
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:12:50.774541",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

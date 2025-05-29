@@ -1,0 +1,46 @@
+{
+  "id": "question_95",
+  "number": 95,
+  "topic": "Topic 1",
+  "text": "You are developing an ML model that uses sliced frames from video feed and creates bounding boxes around specific objects. You want to automate the following steps in your training pipeline: ingestion and preprocessing of data in Cloud Storage, followed by training and hyperparameter tuning of the object model using Vertex AI jobs, and finally deploying the model to an endpoint. You want to orchestrate the entire pipeline with minimal cluster management. What approach should you use?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Kubeflow Pipelines on Google Kubernetes Engine.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use Vertex AI Pipelines with TensorFlow Extended (TFX) SDK.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Vertex AI Pipelines with Kubeflow Pipelines SDK.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Use Cloud Composer for the orchestration.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 27,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.5925925925925926
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:10:57.858336",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

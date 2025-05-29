@@ -1,0 +1,46 @@
+{
+  "id": "question_267",
+  "number": 267,
+  "topic": "Topic 1",
+  "text": "You created a model that uses BigQuery ML to perform linear regression. You need to retrain the model on the cumulative data collected every week. You want to minimize the development effort and the scheduling cost. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use BigQuery’s scheduling service to run the model retraining query periodically.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Create a pipeline in Vertex AI Pipelines that executes the retraining query, and use the Cloud Scheduler API to run the query weekly.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Cloud Scheduler to trigger a Cloud Function every week that runs the query for retraining the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use the BigQuery API Connector and Cloud Scheduler to trigger Workflows every week that retrains the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 12,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:24:21.532491",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

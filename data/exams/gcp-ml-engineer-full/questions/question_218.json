@@ -1,0 +1,46 @@
+{
+  "id": "question_218",
+  "number": 218,
+  "topic": "Topic 1",
+  "text": "You have built a custom model that performs several memory-intensive preprocessing tasks before it makes a prediction. You deployed the model to a Vertex AI endpoint, and validated that results were received in a reasonable amount of time. After routing user traffic to the endpoint, you discover that the endpoint does not autoscale as expected when receiving multiple requests. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use a machine type with more memory",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Decrease the number of workers per machine",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Increase the CPU utilization target in the autoscaling configurations.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Decrease the CPU utilization target in the autoscaling configurations",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 23,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.7391304347826086
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:20:27.961199",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

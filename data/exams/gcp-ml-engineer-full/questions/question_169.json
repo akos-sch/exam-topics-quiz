@@ -1,0 +1,52 @@
+{
+  "id": "question_169",
+  "number": 169,
+  "topic": "Topic 1",
+  "text": "You are developing a model to detect fraudulent credit card transactions. You need to prioritize detection, because missing even one fraudulent transaction could severely impact the credit card holder. You used AutoML to tram a model on users' profile information and credit card transaction data After training the initial model, you notice that the model is failing to detect many fraudulent transactions. How should you adjust the training parameters in AutoML to improve model performance? (Choose two.)",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Increase the score threshold",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Decrease the score threshold.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Add more positive examples to the training set",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Add more negative examples to the training set",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "E",
+      "text": "Reduce the maximum number of node hours for training",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 15,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.6666666666666666
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:16:50.405589",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_178",
+  "number": 178,
+  "topic": "Topic 1",
+  "text": "You work for a bank. You have created a custom model to predict whether a loan application should be flagged for human review. The input features are stored in a BigQuery table. The model is performing well, and you plan to deploy it to production. Due to compliance requirements the model must provide explanations for each prediction. You want to add this functionality to your model code with minimal effort and provide explanations that are as accurate as possible. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create an AutoML tabular model by using the BigQuery data with integrated Vertex Explainable AI.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create a BigQuery ML deep neural network model and use the ML.EXPLAIN_PREDICT method with the num_integral_steps parameter.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Upload the custom model to Vertex AI Model Registry and configure feature-based attribution by using sampled Shapley with input baselines.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Update the custom serving container to include sampled Shapley-based explanations in the prediction outputs.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 14,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.7
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:17:36.121234",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

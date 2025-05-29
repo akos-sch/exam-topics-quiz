@@ -1,0 +1,46 @@
+{
+  "id": "question_175",
+  "number": 175,
+  "topic": "Topic 1",
+  "text": "You have recently trained a scikit-learn model that you plan to deploy on Vertex AI. This model will support both online and batch prediction. You need to preprocess input data for model inference. You want to package the model for deployment while minimizing additional code. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Upload your model to the Vertex AI Model Registry by using a prebuilt scikit-ieam prediction container.2. Deploy your model to Vertex AI Endpoints, and create a Vertex AI batch prediction job that uses the instanceConfig.instanceType setting to transform your input data.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Wrap your model in a custom prediction routine (CPR). and build a container image from the CPR local model.2. Upload your scikit learn model container to Vertex AI Model Registry.3. Deploy your model to Vertex AI Endpoints, and create a Vertex AI batch prediction job",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "1. Create a custom container for your scikit learn model.2. Define a custom serving function for your model.3. Upload your model and custom container to Vertex AI Model Registry.4. Deploy your model to Vertex AI Endpoints, and create a Vertex AI batch prediction job.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1. Create a custom container for your scikit learn model.2. Upload your model and custom container to Vertex AI Model Registry.3. Deploy your model to Vertex AI Endpoints, and create a Vertex AI batch prediction job that uses the instanceConfig.instanceType setting to transform your input data.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 15,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.857
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:17:23.581517",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

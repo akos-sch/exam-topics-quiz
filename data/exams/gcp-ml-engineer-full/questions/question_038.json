@@ -1,0 +1,46 @@
+{
+  "id": "question_38",
+  "number": 38,
+  "topic": "Topic 1",
+  "text": "You have trained a text classification model in TensorFlow using AI Platform. You want to use the trained model for batch predictions on text data stored in<br/>BigQuery while minimizing computational overhead. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Export the model to BigQuery ML.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Deploy and version the model on AI Platform.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Dataflow with the SavedModel to read the data from BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Submit a batch prediction job on AI Platform that points to the model location in Cloud Storage.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 29,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.5806451612903226
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:06:42.268786",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

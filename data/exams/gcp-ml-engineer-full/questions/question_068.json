@@ -1,0 +1,46 @@
+{
+  "id": "question_68",
+  "number": 68,
+  "topic": "Topic 1",
+  "text": "You need to quickly build and train a model to predict the sentiment of customer reviews with custom categories without writing code. You do not have enough data to train a model from scratch. The resulting model should have high predictive performance. Which service should you use?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "AutoML Natural Language",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Cloud Natural Language API",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "AI Hub pre-made Jupyter Notebooks",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "AI Platform Training built-in algorithms",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 31,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.7096774193548387
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:05.012145",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

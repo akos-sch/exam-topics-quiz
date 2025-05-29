@@ -1,0 +1,46 @@
+{
+  "id": "question_112",
+  "number": 112,
+  "topic": "Topic 1",
+  "text": "You are an ML engineer in the contact center of a large enterprise. You need to build a sentiment analysis tool that predicts customer sentiment from recorded phone conversations. You need to identify the best approach to building a model while ensuring that the gender, age, and cultural differences of the customers who called the contact center do not impact any stage of the model development pipeline and results. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Convert the speech to text and extract sentiments based on the sentences.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Convert the speech to text and build a model based on the words.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Extract sentiment directly from the voice recordings.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Convert the speech to text and extract sentiment using syntactical analysis.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 37,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.6111111111111112
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:12:31.217156",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

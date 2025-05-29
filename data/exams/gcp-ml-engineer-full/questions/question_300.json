@@ -1,0 +1,46 @@
+{
+  "id": "question_300",
+  "number": 300,
+  "topic": "Topic 1",
+  "text": "You work for a bank. You need to train a model by using unstructured data stored in Cloud Storage that predicts whether credit card transactions are fraudulent. The data needs to be converted to a structured format to facilitate analysis in BigQuery. Company policy requires that data containing personally identifiable information (PII) remain in Cloud Storage. You need to implement a scalable solution that preserves the data’s value for analysis. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use BigQuery’s authorized views and column-level access controls to restrict access to PII within the dataset.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use the DLP API to de-identify the sensitive data before loading it into BigQuery.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Store the unstructured data in a separate PII-compliant BigQuery database.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Remove the sensitive data from the files manually before loading them into BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 1,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:35.434506",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

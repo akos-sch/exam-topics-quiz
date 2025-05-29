@@ -1,0 +1,46 @@
+{
+  "id": "question_50",
+  "number": 50,
+  "topic": "Topic 1",
+  "text": "Your team is building a convolutional neural network (CNN)-based architecture from scratch. The preliminary experiments running on your on-premises CPU-only infrastructure were encouraging, but have slow convergence. You have been asked to speed up model training to reduce time-to-market. You want to experiment with virtual machines (VMs) on Google Cloud to leverage more powerful hardware. Your code does not include any manual device placement and has not been wrapped in Estimator model-level abstraction. Which environment should you train your model on?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "AVM on Compute Engine and 1 TPU with all dependencies installed manually.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "AVM on Compute Engine and 8 GPUs with all dependencies installed manually.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "A Deep Learning VM with an n1-standard-2 machine and 1 GPU with all libraries pre-installed.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "A Deep Learning VM with more powerful CPU e2-highcpu-16 machines with all libraries pre-installed.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 21,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.4444444444444444
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:07:43.031419",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

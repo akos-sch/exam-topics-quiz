@@ -1,0 +1,46 @@
+{
+  "id": "question_164",
+  "number": 164,
+  "topic": "Topic 1",
+  "text": "You work for a small company that has deployed an ML model with autoscaling on Vertex AI to serve online predictions in a production environment. The current model receives about 20 prediction requests per hour with an average response time of one second. You have retrained the same model on a new batch of data, and now you are canary testing it, sending ~10% of production traffic to the new model. During this canary test, you notice that prediction requests for your new model are taking between 30 and 180 seconds to complete. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Submit a request to raise your project quota to ensure that multiple prediction services can run concurrently.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Turn off auto-scaling for the online prediction service of your new model. Use manual scaling with one node always available.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Remove your new model from the production environment. Compare the new model and existing model codes to identify the cause of the performance bottleneck.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Remove your new model from the production environment. For a short trial period, send all incoming prediction requests to BigQuery. Request batch predictions from your new model, and then use the Data Labeling Service to validate your model’s performance before promoting it to production.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 19,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.53
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:16:30.153025",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

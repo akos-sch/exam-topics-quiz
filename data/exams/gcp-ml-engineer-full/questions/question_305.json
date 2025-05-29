@@ -1,0 +1,46 @@
+{
+  "id": "question_305",
+  "number": 305,
+  "topic": "Topic 1",
+  "text": "Your company recently migrated several of is ML models to Google Cloud. You have started developing models in Vertex AI. You need to implement a system that tracks model artifacts and model lineage. You want to create a simple, effective solution that can also be reused for future models. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use a combination of Vertex AI Pipelines and the Vertex AI SDK to integrate metadata tracking into the ML workflow.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use Vertex AI Pipelines for model artifacts and MLflow for model lineage.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Vertex AI Experiments for model artifacts and use Vertex ML Metadata for model lineage.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Implement a scheduled metadata tracking solution using Cloud Composer and Cloud Run functions.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 2,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:54.442432",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_168",
+  "number": 168,
+  "topic": "Topic 1",
+  "text": "You need to develop an image classification model by using a large dataset that contains labeled images in a Cloud Storage bucket. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Vertex AI Pipelines with the Kubeflow Pipelines SDK to create a pipeline that reads the images from Cloud Storage and trains the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use Vertex AI Pipelines with TensorFlow Extended (TFX) to create a pipeline that reads the images from Cloud Storage and trains the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Import the labeled images as a managed dataset in Vertex AI and use AutoML to train the model.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Convert the image dataset to a tabular format using Dataflow Load the data into BigQuery and use BigQuery ML to train the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 15,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.6
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:16:46.722620",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

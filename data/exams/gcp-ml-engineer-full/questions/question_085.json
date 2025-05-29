@@ -1,0 +1,46 @@
+{
+  "id": "question_85",
+  "number": 85,
+  "topic": "Topic 1",
+  "text": "You work for a large social network service provider whose users post articles and discuss news. Millions of comments are posted online each day, and more than 200 human moderators constantly review comments and flag those that are inappropriate. Your team is building an ML model to help human moderators check content on the platform. The model scores each comment and flags suspicious comments to be reviewed by a human. Which metric(s) should you use to monitor the model’s performance?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Number of messages flagged by the model per minute",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Number of messages flagged by the model per minute confirmed as being inappropriate by humans.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Precision and recall estimates based on a random sample of 0.1% of raw messages each minute sent to a human for review",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Precision and recall estimates based on a sample of messages flagged by the model as potentially inappropriate each minute",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 59,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.5789473684210527
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:10:14.620637",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

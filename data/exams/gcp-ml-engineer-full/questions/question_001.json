@@ -1,0 +1,46 @@
+{
+  "id": "question_1",
+  "number": 1,
+  "topic": "Topic 1",
+  "text": "You are building an ML model to detect anomalies in real-time sensor data. You will use Pub/Sub to handle incoming requests. You want to store the results for analytics and visualization. How should you configure the pipeline?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1 = Dataflow, 2 = AI Platform, 3 = BigQuery",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "1 = DataProc, 2 = AutoML, 3 = Cloud Bigtable",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1 = BigQuery, 2 = AutoML, 3 = Cloud Functions",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1 = BigQuery, 2 = AI Platform, 3 = Cloud Storage",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 28,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.8
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:03:54.625955",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

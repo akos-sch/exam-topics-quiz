@@ -1,0 +1,46 @@
+{
+  "id": "question_54",
+  "number": 54,
+  "topic": "Topic 1",
+  "text": "Your team has been tasked with creating an ML solution in Google Cloud to classify support requests for one of your platforms. You analyzed the requirements and decided to use TensorFlow to build the classifier so that you have full control of the model's code, serving, and deployment. You will use Kubeflow pipelines for the ML platform. To save time, you want to build on existing resources and use managed services instead of building a completely new model. How should you build the classifier?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the Natural Language API to classify support requests.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use AutoML Natural Language to build the support requests classifier.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use an established text classification model on AI Platform to perform transfer learning.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Use an established text classification model on AI Platform as-is to classify support requests.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 12,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.846
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:08:00.401839",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

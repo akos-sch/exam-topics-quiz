@@ -1,0 +1,46 @@
+{
+  "id": "question_206",
+  "number": 206,
+  "topic": "Topic 1",
+  "text": "You are building a predictive maintenance model to preemptively detect part defects in bridges. You plan to use high definition images of the bridges as model inputs. You need to explain the output of the model to the relevant stakeholders so they can take appropriate action. How should you build the model?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use scikit-learn to build a tree-based model, and use SHAP values to explain the model output.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use scikit-learn to build a tree-based model, and use partial dependence plots (PDP) to explain the model output.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use TensorFlow to create a deep learning-based model, and use Integrated Gradients to explain the model output.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Use TensorFlow to create a deep learning-based model, and use the sampled Shapley method to explain the model output.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 11,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:19:38.035749",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

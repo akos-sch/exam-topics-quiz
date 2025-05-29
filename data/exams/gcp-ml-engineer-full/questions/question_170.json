@@ -1,0 +1,46 @@
+{
+  "id": "question_170",
+  "number": 170,
+  "topic": "Topic 1",
+  "text": "You need to deploy a scikit-leam classification model to production. The model must be able to serve requests 24/7, and you expect millions of requests per second to the production application from 8 am to 7 pm. You need to minimize the cost of deployment. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Deploy an online Vertex AI prediction endpoint. Set the max replica count to 1",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Deploy an online Vertex AI prediction endpoint. Set the max replica count to 100",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Deploy an online Vertex AI prediction endpoint with one GPU per replica. Set the max replica count to 1",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Deploy an online Vertex AI prediction endpoint with one GPU per replica. Set the max replica count to 100",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 8,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:16:54.422179",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

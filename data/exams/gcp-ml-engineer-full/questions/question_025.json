@@ -1,0 +1,46 @@
+{
+  "id": "question_25",
+  "number": 25,
+  "topic": "Topic 1",
+  "text": "You work for a social media company. You need to detect whether posted images contain cars. Each training example is a member of exactly one class. You have trained an object detection neural network and deployed the model version to AI Platform Prediction for evaluation. Before deployment, you created an evaluation job and attached it to the AI Platform Prediction model version. You notice that the precision is lower than your business requirements allow. How should you adjust the model's final layer softmax threshold to increase precision?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Increase the recall.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Decrease the recall.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Increase the number of false positives.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Decrease the number of false negatives.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 16,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.9375
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:05:49.270497",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

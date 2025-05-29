@@ -1,0 +1,46 @@
+{
+  "id": "question_318",
+  "number": 318,
+  "topic": "Topic 1",
+  "text": "You developed an ML model using Vertex AI and deployed it to a Vertex AI endpoint. You anticipate that the model will need to be retrained as new data becomes available. You have configured a Vertex AI Model Monitoring Job. You need to monitor the model for feature attribution drift and establish continuous evaluation metrics. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Set up alerts using Cloud Logging, and use the Vertex AI console to review feature attributions.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Set up alerts using Cloud Logging, and use Looker Studio to create a dashboard that visualizes feature attribution drift. Review the dashboard periodically.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Enable request-response logging for the Vertex AI endpoint, and set up alerts using Pub/Sub. Create a Cloud Run function to run TensorFlow Data Validation on your dataset.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Enable request-response logging for the Vertex AI endpoint, and set up alerts using Cloud Logging. Review the feature attributions in the Google Cloud console when an alert is received.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 1,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:27:44.542685",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

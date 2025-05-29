@@ -1,0 +1,46 @@
+{
+  "id": "question_9",
+  "number": 9,
+  "topic": "Topic 1",
+  "text": "You are developing ML models with AI Platform for image segmentation on CT scans. You frequently update your model architectures based on the newest available research papers, and have to rerun training on the same dataset to benchmark their performance. You want to minimize computation costs and manual intervention while having version control for your code. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Cloud Functions to identify changes to your code in Cloud Storage and trigger a retraining job.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use the gcloud command-line tool to submit training jobs on AI Platform when you update your code.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Cloud Build linked with Cloud Source Repositories to trigger retraining when new code is pushed to the repository.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Create an automated workflow in Cloud Composer that runs daily and looks for changes in code in Cloud Storage using a sensor.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 10,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.8
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:04:30.402119",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

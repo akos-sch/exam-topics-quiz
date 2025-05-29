@@ -1,0 +1,46 @@
+{
+  "id": "question_141",
+  "number": 141,
+  "topic": "Topic 1",
+  "text": "You work for a magazine publisher and have been tasked with predicting whether customers will cancel their annual subscription. In your exploratory data analysis, you find that 90% of individuals renew their subscription every year, and only 10% of individuals cancel their subscription. After training a NN Classifier, your model predicts those who cancel their subscription with 99% accuracy and predicts those who renew their subscription with 82% accuracy. How should you interpret these results?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "This is not a good result because the model should have a higher accuracy for those who renew their subscription than for those who cancel their subscription.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "This is not a good result because the model is performing worse than predicting that people will always renew their subscription.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "This is a good result because predicting those who cancel their subscription is more difficult, since there is less data for this group.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "This is a good result because the accuracy across both groups is greater than 80%.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 34,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.5833333333333334
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:14:44.825678",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

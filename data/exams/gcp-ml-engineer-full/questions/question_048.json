@@ -1,0 +1,46 @@
+{
+  "id": "question_48",
+  "number": 48,
+  "topic": "Topic 1",
+  "text": "You started working on a classification problem with time series data and achieved an area under the receiver operating characteristic curve (AUC ROC) value of\n99% for training data after just a few experiments. You haven't explored using any sophisticated algorithms or spent any time on hyperparameter tuning. What should your next step be to identify and fix the problem?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Address the model overfitting by using a less complex algorithm.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Address data leakage by applying nested cross-validation during model training.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Address data leakage by removing features highly correlated with the target value.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Address the model overfitting by tuning the hyperparameters to reduce the AUC ROC value.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 31,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.6
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:07:30.371079",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

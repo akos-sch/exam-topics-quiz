@@ -1,0 +1,46 @@
+{
+  "id": "question_31",
+  "number": 31,
+  "topic": "Topic 1",
+  "text": "You need to train a computer vision model that predicts the type of government ID present in a given image using a GPU-powered virtual machine on Compute\nEngine. You use the following parameters:\n✑ Optimizer: SGD\n✑ Image shape = 224ֳ—224\n✑ Batch size = 64\n✑ Epochs = 10\n✑ Verbose =2\nDuring training you encounter the following error: ResourceExhaustedError: Out Of Memory (OOM) when allocating tensor. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Change the optimizer.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Reduce the batch size.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Change the learning rate.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Reduce the image shape.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 11,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:06:15.596887",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

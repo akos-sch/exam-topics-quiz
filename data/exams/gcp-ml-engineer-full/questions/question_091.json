@@ -1,0 +1,46 @@
+{
+  "id": "question_91",
+  "number": 91,
+  "topic": "Topic 1",
+  "text": "You work on the data science team for a multinational beverage company. You need to develop an ML model to predict the company’s profitability for a new line of naturally flavored bottled waters in different locations. You are provided with historical data that includes product types, product sales volumes, expenses, and profits for all regions. What should you use as the input and output for your model?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use latitude, longitude, and product type as features. Use profit as model output.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use latitude, longitude, and product type as features. Use revenue and expenses as model outputs.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use product type and the feature cross of latitude with longitude, followed by binning, as features. Use profit as model output.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Use product type and the feature cross of latitude with longitude, followed by binning, as features. Use revenue and expenses as model outputs.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 21,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.7727272727272727
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:10:37.387768",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

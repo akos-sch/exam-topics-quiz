@@ -1,0 +1,46 @@
+{
+  "id": "question_173",
+  "number": 173,
+  "topic": "Topic 1",
+  "text": "You received a training-serving skew alert from a Vertex AI Model Monitoring job running in production. You retrained the model with more recent training data, and deployed it back to the Vertex AI endpoint, but you are still receiving the same alert. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Update the model monitoring job to use a lower sampling rate.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Update the model monitoring job to use the more recent training data that was used to retrain the model.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Temporarily disable the alert. Enable the alert again after a sufficient amount of new production traffic has passed through the Vertex AI endpoint.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Temporarily disable the alert until the model can be retrained again on newer training data. Retrain the model again after a sufficient amount of new production traffic has passed through the Vertex AI endpoint.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 10,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.7
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:17:10.899840",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_128",
+  "number": 128,
+  "topic": "Topic 1",
+  "text": "You are an ML engineer on an agricultural research team working on a crop disease detection tool to detect leaf rust spots in images of crops to determine the presence of a disease. These spots, which can vary in shape and size, are correlated to the severity of the disease. You want to develop a solution that predicts the presence and severity of the disease with high accuracy. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create an object detection model that can localize the rust spots.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Develop an image segmentation ML model to locate the boundaries of the rust spots.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Develop a template matching algorithm using traditional computer vision libraries.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Develop an image classification ML model to predict the presence of the disease.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 29,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.862
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:13:42.195907",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

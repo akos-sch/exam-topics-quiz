@@ -1,0 +1,46 @@
+{
+  "id": "question_78",
+  "number": 78,
+  "topic": "Topic 1",
+  "text": "You are creating a deep neural network classification model using a dataset with categorical input values. Certain columns have a cardinality greater than 10,000 unique values. How should you encode these categorical values as input into the model?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Convert each categorical value into an integer value.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Convert the categorical string data to one-hot hash buckets.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Map the categorical variables into a vector of boolean values.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Convert each categorical value into a run-length encoded string.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 25,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.7
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:43.725984",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

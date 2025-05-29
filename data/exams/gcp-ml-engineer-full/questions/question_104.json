@@ -1,0 +1,46 @@
+{
+  "id": "question_104",
+  "number": 104,
+  "topic": "Topic 1",
+  "text": "You work for a gaming company that has millions of customers around the world. All games offer a chat feature that allows players to communicate with each other in real time. Messages can be typed in more than 20 languages and are translated in real time using the Cloud Translation API. You have been asked to build an ML system to moderate the chat in real time while assuring that the performance is uniform across the various languages and without changing the serving infrastructure.\n\nYou trained your first model using an in-house word2vec model for embedding the chat messages translated by the Cloud Translation API. However, the model has significant differences in performance across the different languages. How should you improve it?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Add a regularization term such as the Min-Diff algorithm to the loss function.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Train a classifier using the chat messages in their original language.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Replace the in-house word2vec with GPT-3 or T5.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Remove moderation for languages for which the false positive rate is too high.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 29,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.5666666666666667
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:11:54.011126",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_46",
+  "number": 46,
+  "topic": "Topic 1",
+  "text": "As the lead ML Engineer for your company, you are responsible for building ML models to digitize scanned customer forms. You have developed a TensorFlow model that converts the scanned images into text and stores them in Cloud Storage. You need to use your ML model on the aggregated data collected at the end of each day with minimal manual intervention. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the batch prediction functionality of AI Platform.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Create a serving pipeline in Compute Engine for prediction.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Cloud Functions for prediction each time a new data point is ingested.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Deploy the model on AI Platform and create a version of it for online inference.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 13,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:07:22.209196",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

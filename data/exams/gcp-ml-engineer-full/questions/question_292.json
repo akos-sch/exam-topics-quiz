@@ -1,0 +1,46 @@
+{
+  "id": "question_292",
+  "number": 292,
+  "topic": "Topic 1",
+  "text": "You are developing a TensorFlow Extended (TFX) pipeline with standard TFX components. The pipeline includes data preprocessing steps. After the pipeline is deployed to production, it will process up to 100 TB of data stored in BigQuery. You need the data preprocessing steps to scale efficiently, publish metrics and parameters to Vertex AI Experiments, and track artifacts by using Vertex ML Metadata. How should you configure the pipeline run?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Run the TFX pipeline in Vertex AI Pipelines. Configure the pipeline to use Vertex AI Training jobs with distributed processing.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Run the TFX pipeline in Vertex AI Pipelines. Set the appropriate Apache Beam parameters in the pipeline to run the data preprocessing steps in Dataflow.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Run the TFX pipeline in Dataproc by using the Apache Beam TFX orchestrator. Set the appropriate Vertex AI permissions in the job to publish metadata in Vertex AI.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Run the TFX pipeline in Dataflow by using the Apache Beam TFX orchestrator. Set the appropriate Vertex AI permissions in the job to publish metadata in Vertex AI.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 4,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:04.430019",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

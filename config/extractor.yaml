@@ -1,0 +1,36 @@
+scraping:
+  rate_limit: 1.0  # seconds between requests
+  max_retries: 3
+  timeout: 30
+  user_agent: "ExamTopics Quiz Extractor 1.0"
+
+llm:
+  provider: "google_vertexai"
+  model: "gemini-2.0-flash-001"
+  project_id: "${GOOGLE_CLOUD_PROJECT}"  # Optional, uses default project if not set
+  location: "us-central1"  # GCP region
+  temperature: 0
+  max_tokens: 4000
+  rate_limit: 60  # requests per minute
+  max_retries: 3
+  fallback_to_traditional_parsing: true
+  # Uses Google Application Default Credentials automatically
+
+extraction:
+  use_structured_output: true
+  batch_size: 5  # questions to process in parallel
+  cache_llm_responses: true
+  validate_with_traditional_parser: true
+  few_shot_examples: true
+
+storage:
+  base_path: "./data"
+  backup_enabled: true
+  compression: true
+
+exams:
+  - name: "google-professional-ml-engineer"
+    url: "https://www.examtopics.com/exams/google/professional-machine-learning-engineer/"
+    total_questions: 321
+    extract_discussions: true
+    use_llm_extraction: true

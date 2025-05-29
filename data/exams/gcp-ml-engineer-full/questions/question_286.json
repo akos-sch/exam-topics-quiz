@@ -1,0 +1,46 @@
+{
+  "id": "question_286",
+  "number": 286,
+  "topic": "Topic 1",
+  "text": "You work for a company that builds bridges for cities around the world. To track the progress of projects at the construction sites, your company has set up cameras at each location. Each hour, the cameras take a picture that is sent to a Cloud Storage bucket. A team of specialists reviews the images, filters important ones, and then annotates specific objects in them. You want to propose using an ML solution that will help the company scale and reduce costs. You need the solution to have minimal up-front cost. What method should you propose?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Train an AutoML object detection model to annotate the objects in the images to help specialists with the annotation task.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use the Cloud Vision API to automatically annotate objects in the images to help specialists with the annotation task.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Create a BigQuery ML classification model to classify important images. Use the model to predict which new images are important to help specialists with the filtering task.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use Vertex AI to train an open source object detection to annotate the objects in the images to help specialists with the annotation task.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 8,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.625
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:25:39.501341",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_83",
+  "number": 83,
+  "topic": "Topic 1",
+  "text": "You need to design an architecture that serves asynchronous predictions to determine whether a particular mission-critical machine part will fail. Your system collects data from multiple sensors from the machine. You want to build a model that will predict a failure in the next N minutes, given the average of each sensor’s data from the past 12 hours. How should you design the architecture?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. HTTP requests are sent by the sensors to your ML model, which is deployed as a microservice and exposes a REST API for prediction<br/>2. Your application queries a Vertex AI endpoint where you deployed your model.<br/>3. Responses are received by the caller application as soon as the model produces the prediction.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Events are sent by the sensors to Pub/Sub, consumed in real time, and processed by a Dataflow stream processing pipeline.<br/>2. The pipeline invokes the model for prediction and sends the predictions to another Pub/Sub topic.<br/>3. Pub/Sub messages containing predictions are then consumed by a downstream system for monitoring.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "1. Export your data to Cloud Storage using Dataflow.<br/>2. Submit a Vertex AI batch prediction job that uses your trained model in Cloud Storage to perform scoring on the preprocessed data.<br/>3. Export the batch prediction job outputs from Cloud Storage and import them into Cloud SQL.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1. Export the data to Cloud Storage using the BigQuery command-line tool<br/>2. Submit a Vertex AI batch prediction job that uses your trained model in Cloud Storage to perform scoring on the preprocessed data.<br/>3. Export the batch prediction job outputs from Cloud Storage and import them into BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 19,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.7777777777777778
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:10:04.520683",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_302",
+  "number": 302,
+  "topic": "Topic 1",
+  "text": "You are building an application that extracts information from invoices and receipts. You want to implement this application with minimal custom code and training. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the Cloud Vision API with TEXT_DETECTION type to extract text from the invoices and receipts, and use a pre-built natural language processing (NLP) model to parse the extracted text.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use the Cloud Document AI API to extract information from the invoices and receipts.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Use Vertex AI Agent Builder with the pre-built Layout Parser model to extract information from the invoices and receipts.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Train an AutoML Natural Language model to classify and extract information from the invoices and receipts.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 3,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:42.754145",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

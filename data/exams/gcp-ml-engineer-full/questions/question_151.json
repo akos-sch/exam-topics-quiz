@@ -1,0 +1,46 @@
+{
+  "id": "question_151",
+  "number": 151,
+  "topic": "Topic 1",
+  "text": "While running a model training pipeline on Vertex Al, you discover that the evaluation step is failing because of an out-of-memory error. You are currently using TensorFlow Model Analysis (TFMA) with a standard Evaluator TensorFlow Extended (TFX) pipeline component for the evaluation step. You want to stabilize the pipeline without downgrading the evaluation quality while minimizing infrastructure overhead. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Include the flag -runner=DataflowRunner in beam_pipeline_args to run the evaluation step on Dataflow.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Move the evaluation step out of your pipeline and run it on custom Compute Engine VMs with sufficient memory.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Migrate your pipeline to Kubeflow hosted on Google Kubernetes Engine, and specify the appropriate node parameters for the evaluation step.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Add tfma.MetricsSpec () to limit the number of metrics in the evaluation step.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 33,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.76
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:15:33.253728",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

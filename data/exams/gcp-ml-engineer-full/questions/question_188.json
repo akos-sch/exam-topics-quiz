@@ -1,0 +1,46 @@
+{
+  "id": "question_188",
+  "number": 188,
+  "topic": "Topic 1",
+  "text": "You work at a bank. You have a custom tabular ML model that was provided by the bank’s vendor. The training data is not available due to its sensitivity. The model is packaged as a Vertex AI Model serving container, which accepts a string as input for each prediction instance. In each string, the feature values are separated by commas. You want to deploy this model to production for online predictions and monitor the feature distribution over time with minimal effort. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Upload the model to Vertex AI Model Registry, and deploy the model to a Vertex AI endpoint\n2. Create a Vertex AI Model Monitoring job with feature drift detection as the monitoring objective, and provide an instance schema",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "1. Upload the model to Vertex AI Model Registry, and deploy the model to a Vertex AI endpoint\n2. Create a Vertex AI Model Monitoring job with feature skew detection as the monitoring objective, and provide an instance schema",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1. Refactor the serving container to accept key-value pairs as input format\n2. Upload the model to Vertex AI Model Registry, and deploy the model to a Vertex AI endpoint\n3. Create a Vertex AI Model Monitoring job with feature drift detection as the monitoring objective.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1. Refactor the serving container to accept key-value pairs as input format\n2. Upload the model to Vertex AI Model Registry, and deploy the model to a Vertex AI endpoint\n3. Create a Vertex AI Model Monitoring job with feature skew detection as the monitoring objective",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 9,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:18:17.306312",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

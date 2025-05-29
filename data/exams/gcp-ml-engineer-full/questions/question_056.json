@@ -1,0 +1,46 @@
+{
+  "id": "question_56",
+  "number": 56,
+  "topic": "Topic 1",
+  "text": "You work for a credit card company and have been asked to create a custom fraud detection model based on historical data using AutoML Tables. You need to prioritize detection of fraudulent transactions while minimizing false positives. Which optimization objective should you use when training the model?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "An optimization objective that minimizes Log loss",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "An optimization objective that maximizes the Precision at a Recall value of 0.50",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "An optimization objective that maximizes the area under the precision-recall curve (AUC PR) value",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "An optimization objective that maximizes the area under the receiver operating characteristic curve (AUC ROC) value",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 19,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.8947368421052632
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:08:07.992829",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

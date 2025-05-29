@@ -1,0 +1,46 @@
+{
+  "id": "question_66",
+  "number": 66,
+  "topic": "Topic 1",
+  "text": "Your data science team is training a PyTorch model for image classification based on a pre-trained RestNet model. You need to perform hyperparameter tuning to optimize for several parameters. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Convert the model to a Keras model, and run a Keras Tuner job.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Run a hyperparameter tuning job on AI Platform using custom containers.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Create a Kuberflow Pipelines instance, and run a hyperparameter tuning job on Katib.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Convert the model to a TensorFlow model, and run a hyperparameter tuning job on AI Platform.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 20,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:08:55.311716",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

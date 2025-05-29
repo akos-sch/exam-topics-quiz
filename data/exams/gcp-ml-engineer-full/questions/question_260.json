@@ -1,0 +1,46 @@
+{
+  "id": "question_260",
+  "number": 260,
+  "topic": "Topic 1",
+  "text": "You are developing a model to predict whether a failure will occur in a critical machine part. You have a dataset consisting of a multivariate time series and labels indicating whether the machine part failed. You recently started experimenting with a few different preprocessing and modeling approaches in a Vertex AI Workbench notebook. You want to log data and track artifacts from each run. How should you set up your experiments?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Use the Vertex AI SDK to create an experiment and set up Vertex ML Metadata.<br/>2. Use the log_time_series_metrics function to track the preprocessed data, and use the log_merrics function to log loss values.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Use the Vertex AI SDK to create an experiment and set up Vertex ML Metadata.<br/>2. Use the log_time_series_metrics function to track the preprocessed data, and use the log_metrics function to log loss values.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "1. Create a Vertex AI TensorBoard instance and use the Vertex AI SDK to create an experiment and associate the TensorBoard instance.<br/>2. Use the assign_input_artifact method to track the preprocessed data and use the log_time_series_metrics function to log loss values.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1. Create a Vertex AI TensorBoard instance, and use the Vertex AI SDK to create an experiment and associate the TensorBoard instance.<br/>2. Use the log_time_series_metrics function to track the preprocessed data, and use the log_metrics function to log loss values.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 22,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:23:48.450372",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

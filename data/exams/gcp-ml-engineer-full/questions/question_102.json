@@ -1,0 +1,46 @@
+{
+  "id": "question_102",
+  "number": 102,
+  "topic": "Topic 1",
+  "text": "You have successfully deployed to production a large and complex TensorFlow model trained on tabular data. You want to predict the lifetime value (LTV) field for each subscription stored in the BigQuery table named subscription. subscriptionPurchase in the project named my-fortune500-company-project.\n\nYou have organized all your training code, from preprocessing data from the BigQuery table up to deploying the validated model to the Vertex AI endpoint, into a TensorFlow Extended (TFX) pipeline. You want to prevent prediction drift, i.e., a situation when a feature data distribution in production changes significantly over time. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Implement continuous retraining of the model daily using Vertex AI Pipelines.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Add a model monitoring job where 10% of incoming predictions are sampled 24 hours.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Add a model monitoring job where 90% of incoming predictions are sampled 24 hours.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Add a model monitoring job where 10% of incoming predictions are sampled every hour.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 29,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.7916666666666666
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:11:41.535351",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_282",
+  "number": 282,
+  "topic": "Topic 1",
+  "text": "You work at an organization that maintains a cloud-based communication platform that integrates conventional chat, voice, and video conferencing into one platform. The audio recordings are stored in Cloud Storage. All recordings have an 8 kHz sample rate and are more than one minute long. You need to implement a new feature in the platform that will automatically transcribe voice call recordings into a text for future applications, such as call summarization and sentiment analysis. How should you implement the voice call transcription feature following Google-recommended best practices?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the original audio sampling rate, and transcribe the audio by using the Speech-to-Text API with synchronous recognition.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use the original audio sampling rate, and transcribe the audio by using the Speech-to-Text API with asynchronous recognition.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Upsample the audio recordings to 16 kHz, and transcribe the audio by using the Speech-to-Text API with synchronous recognition.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Upsample the audio recordings to 16 kHz, and transcribe the audio by using the Speech-to-Text API with asynchronous recognition.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 46,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.6521739130434783
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:25:24.084600",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

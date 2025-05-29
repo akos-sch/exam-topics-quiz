@@ -1,0 +1,46 @@
+{
+  "id": "question_277",
+  "number": 277,
+  "topic": "Topic 1",
+  "text": "You work for a large bank that serves customers through an application hosted in Google Cloud that is running in the US and Singapore. You have developed a PyTorch model to classify transactions as potentially fraudulent or not. The model is a three-layer perceptron that uses both numerical and categorical features as input, and hashing happens within the model.\n\nYou deployed the model to the us-central1 region on nl-highcpu-16 machines, and predictions are served in real time. The model's current median response latency is 40 ms. You want to reduce latency, especially in Singapore, where some customers are experiencing the longest delays. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Attach an NVIDIA T4 GPU to the machines being used for online inference.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Change the machines being used for online inference to nl-highcpu-32.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Deploy the model to Vertex AI private endpoints in the us-central1 and asia-southeast1 regions, and allow the application to choose the appropriate endpoint.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Create another Vertex AI endpoint in the asia-southeast1 region, and allow the application to choose the appropriate endpoint.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 24,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.625
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:25:02.865758",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_138",
+  "number": 138,
+  "topic": "Topic 1",
+  "text": "You work for a company that manages a ticketing platform for a large chain of cinemas. Customers use a mobile app to search for movies they’re interested in and purchase tickets in the app. Ticket purchase requests are sent to Pub/Sub and are processed with a Dataflow streaming pipeline configured to conduct the following steps:\n1. Check for availability of the movie tickets at the selected cinema.\n2. Assign the ticket price and accept payment.\n3. Reserve the tickets at the selected cinema.\n4. Send successful purchases to your database.\n\nEach step in this process has low latency requirements (less than 50 milliseconds). You have developed a logistic regression model with BigQuery ML that predicts whether offering a promo code for free popcorn increases the chance of a ticket purchase, and this prediction should be added to the ticket purchase process. You want to identify the simplest way to deploy this model to production while adding minimal latency. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Run batch inference with BigQuery ML every five minutes on each new set of tickets issued.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Export your model in TensorFlow format, and add a tfx_bsl.public.beam.RunInference step to the Dataflow pipeline.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Export your model in TensorFlow format, deploy it on Vertex AI, and query the prediction endpoint from your streaming pipeline.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Convert your model with TensorFlow Lite (TFLite), and add it to the mobile app so that the promo code and the incoming request arrive together in Pub/Sub.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 34,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.7333333333333333
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:14:30.619860",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

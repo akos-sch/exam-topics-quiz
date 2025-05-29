@@ -1,0 +1,46 @@
+{
+  "id": "question_88",
+  "number": 88,
+  "topic": "Topic 1",
+  "text": "You are an ML engineer at a bank. You have developed a binary classification model using AutoML Tables to predict whether a customer will make loan payments on time. The output is used to approve or reject loan requests. One customer’s loan request has been rejected by your model, and the bank’s risks department is asking you to provide the reasons that contributed to the model’s decision. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use local feature importance from the predictions.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use the correlation with target values in the data summary page.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use the feature importance percentages in the model evaluation page.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Vary features independently to identify the threshold per feature that changes the classification.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 28,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.9285714285714286
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:10:25.901722",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

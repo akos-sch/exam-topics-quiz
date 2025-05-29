@@ -1,0 +1,46 @@
+{
+  "id": "question_263",
+  "number": 263,
+  "topic": "Topic 1",
+  "text": "You are developing a custom TensorFlow classification model based on tabular data. Your raw data is stored in BigQuery. contains hundreds of millions of rows, and includes both categorical and numerical features. You need to use a MaxMin scaler on some numerical features, and apply a one-hot encoding to some categorical features such as SKU names. Your model will be trained over multiple epochs. You want to minimize the effort and cost of your solution. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Write a SQL query to create a separate lookup table to scale the numerical features.\n2. Deploy a TensorFlow-based model from Hugging Face to BigQuery to encode the text features.\n3. Feed the resulting BigQuery view into Vertex AI Training.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Use BigQuery to scale the numerical features.\n2. Feed the features into Vertex AI Training.\n3. Allow TensorFlow to perform the one-hot text encoding.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1. Use TFX components with Dataflow to encode the text features and scale the numerical features.\n2. Export results to Cloud Storage as TFRecords.\n3. Feed the data into Vertex AI Training.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "1. Write a SQL query to create a separate lookup table to scale the numerical features.\n2. Perform the one-hot text encoding in BigQuery.\n3. Feed the resulting BigQuery view into Vertex AI Training.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 36,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.5142857142857142
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:24:05.130325",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

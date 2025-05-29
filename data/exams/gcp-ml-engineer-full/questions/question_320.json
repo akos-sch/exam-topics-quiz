@@ -1,0 +1,46 @@
+{
+  "id": "question_320",
+  "number": 320,
+  "topic": "Topic 1",
+  "text": "You are an ML researcher and are evaluating multiple deep learning-based model architectures and hyperparameter configurations. You need to implement a robust solution to track the progress of each model iteration, visualize key metrics, gain insights into model internals, and optimize training performance.\n\nYou want your solution to have the most efficient and powerful approach to compare the models and have the strongest visualization abilities. How should you bull this solution?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Vertex AI TensorBoard for in-depth visualization and analysis, and use BigQuery for experiment tracking and analysis.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use Vertex AI TensorBoard for visualizing training progress and model behavior, and use Vertex AI Feature Store to stove and manage experiment data for analysis and reproducibility.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Vertex AI Experiments for tracking iterations and comparison, and use Vertex AI TensorBoard for visualization and analysis of the training metrics and model architecture.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Use Vertex AI Experiments for tracking iterations and comparison, and use BigQuery and Looker Studio for visualization and analysis of the training metrics and model architecture.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 0,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:27:52.320257",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

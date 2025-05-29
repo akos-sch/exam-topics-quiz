@@ -1,0 +1,46 @@
+{
+  "id": "question_62",
+  "number": 62,
+  "topic": "Topic 1",
+  "text": "While conducting an exploratory analysis of a dataset, you discover that categorical feature A has substantial predictive power, but it is sometimes missing. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Drop feature A if more than 15% of values are missing. Otherwise, use feature A as-is.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Compute the mode of feature A and then use it to replace the missing values in feature A.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Replace the missing values with the values of the feature with the highest Pearson correlation with feature A.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Add an additional class to categorical feature A for missing values. Create a new binary feature that indicates whether feature A is missing.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 36,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.575
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:08:40.386229",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

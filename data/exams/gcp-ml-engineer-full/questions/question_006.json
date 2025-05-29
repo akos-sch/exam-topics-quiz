@@ -1,0 +1,46 @@
+{
+  "id": "question_6",
+  "number": 6,
+  "topic": "Topic 1",
+  "text": "You work for an online retail company that is creating a visual search engine. You have set up an end-to-end ML pipeline on Google Cloud to classify whether an image contains your company's product. Expecting the release of new products in the near future, you configured a retraining functionality in the pipeline so that new data can be fed into your ML models. You also want to use AI Platform's continuous evaluation service to ensure that the models have high accuracy on your test dataset. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Keep the original test dataset unchanged even if newer products are incorporated into retraining.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Extend your test dataset with images of the newer products when they are introduced to retraining.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Replace your test dataset with images of the newer products when they are introduced to retraining.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Update your test dataset with images of the newer products when your evaluation metrics drop below a pre-decided threshold.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 25,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.8
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:04:19.426482",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

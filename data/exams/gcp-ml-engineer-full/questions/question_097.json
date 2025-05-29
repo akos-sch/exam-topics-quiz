@@ -1,0 +1,46 @@
+{
+  "id": "question_97",
+  "number": 97,
+  "topic": "Topic 1",
+  "text": "You are a data scientist at an industrial equipment manufacturing company. You are developing a regression model to estimate the power consumption in the company’s manufacturing plants based on sensor data collected from all of the plants. The sensors collect tens of millions of records every day. You need to schedule daily training runs for your model that use all the data collected up to the current date. You want your model to scale smoothly and require minimal development work. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Train a regression model using AutoML Tables.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Develop a custom TensorFlow regression model, and optimize it using Vertex AI Training.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Develop a custom scikit-learn regression model, and optimize it using Vertex AI Training.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Develop a regression model using BigQuery ML.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 42,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.6666666666666666
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:11:16.028030",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

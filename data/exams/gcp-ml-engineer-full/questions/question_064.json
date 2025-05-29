@@ -1,0 +1,46 @@
+{
+  "id": "question_64",
+  "number": 64,
+  "topic": "Topic 1",
+  "text": "You recently designed and built a custom neural network that uses critical dependencies specific to your organization’s framework. You need to train the model using a managed training service on Google Cloud. However, the ML framework and related dependencies are not supported by AI Platform Training. Also, both your model and your data are too large to fit in memory on a single machine. Your ML framework of choice uses the scheduler, workers, and servers distribution structure. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use a built-in model available on AI Platform Training.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Build your custom container to run jobs on AI Platform Training.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Build your custom containers to run distributed training jobs on AI Platform Training.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Reconfigure your code to a ML framework with dependencies that are supported by AI Platform Training.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 20,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:08:48.179422",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

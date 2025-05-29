@@ -1,0 +1,46 @@
+{
+  "id": "question_299",
+  "number": 299,
+  "topic": "Topic 1",
+  "text": "Your team is experimenting with developing smaller, distilled LLMs for a specific domain. You have performed batch inference on a dataset by using several variations of your distilled LLMs and stored the batch inference outputs in Cloud Storage. You need to create an evaluation workflow that integrates with your existing Vertex AI pipeline to assess the performance of the LLM versions while also tracking artifacts. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Develop a custom Python component that reads the batch inference outputs from Cloud Storage, calculates evaluation metrics, and writes the results to a BigQuery table.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use a Dataflow component that processes the batch inference outputs from Cloud Storage, calculates evaluation metrics in a distributed manner, and writes the results to a BigQuery table.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Create a custom Vertex AI Pipelines component that reads the batch inference outputs from Cloud Storage, calculates evaluation metrics, and writes the results to a BigQuery table.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Use the Automatic side-by-side (AutoSxS) pipeline component that processes the batch inference outputs from Cloud Storage, aggregates evaluation metrics, and writes the results to a BigQuery table.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 3,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.66
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:31.637942",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

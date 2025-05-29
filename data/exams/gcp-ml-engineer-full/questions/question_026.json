@@ -1,0 +1,46 @@
+{
+  "id": "question_26",
+  "number": 26,
+  "topic": "Topic 1",
+  "text": "You are responsible for building a unified analytics environment across a variety of on-premises data marts. Your company is experiencing data quality and security challenges when integrating data across the servers, caused by the use of a wide range of disconnected tools and temporary solutions. You need a fully managed, cloud-native data integration service that will lower the total cost of work and reduce repetitive work. Some members on your team prefer a codeless interface for building Extract, Transform, Load (ETL) process. Which service should you use?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Dataflow",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Dataprep",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Apache Flink",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Cloud Data Fusion",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 17,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.9411764705882353
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:05:52.971714",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_220",
+  "number": 220,
+  "topic": "Topic 1",
+  "text": "You are collaborating on a model prototype with your team. You need to create a Vertex AI Workbench environment for the members of your team and also limit access to other employees in your project. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Create a new service account and grant it the Notebook Viewer role<br/>2. Grant the Service Account User role to each team member on the service account<br/>3. Grant the Vertex AI User role to each team member<br/>4. Provision a Vertex AI Workbench user-managed notebook instance that uses the new service account",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Grant the Vertex AI User role to the default Compute Engine service account<br/>2. Grant the Service Account User role to each team member on the default Compute Engine service account<br/>3. Provision a Vertex AI Workbench user-managed notebook instance that uses the default Compute Engine service account.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1. Create a new service account and grant it the Vertex AI User role<br/>2. Grant the Service Account User role to each team member on the service account<br/>3. Grant the Notebook Viewer role to each team member.<br/>4. Provision a Vertex AI Workbench user-managed notebook instance that uses the new service account",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "1. Grant the Vertex AI User role to the primary team member<br/>2. Grant the Notebook Viewer role to the other team members<br/>3. Provision a Vertex AI Workbench user-managed notebook instance that uses the primary user’s account",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 8,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:20:36.843549",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_238",
+  "number": 238,
+  "topic": "Topic 1",
+  "text": "You have deployed a scikit-team model to a Vertex AI endpoint using a custom model server. You enabled autoscaling: however, the deployed model fails to scale beyond one replica, which led to dropped requests. You notice that CPU utilization remains low even during periods of high load. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Attach a GPU to the prediction nodes",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Increase the number of workers in your model server",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Schedule scaling of the nodes to match expected demand",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Increase the minReplicaCount in your DeployedModel configuration",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 18,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.5555555555555556
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:22:03.156675",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

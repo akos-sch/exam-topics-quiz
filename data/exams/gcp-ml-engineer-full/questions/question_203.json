@@ -1,0 +1,46 @@
+{
+  "id": "question_203",
+  "number": 203,
+  "topic": "Topic 1",
+  "text": "You work for a bank. You have been asked to develop an ML model that will support loan application decisions. You need to determine which Vertex AI services to include in the workflow. You want to track the model’s training parameters and the metrics per training epoch. You plan to compare the performance of each version of the model to determine the best model based on your chosen metrics. Which Vertex AI services should you use?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Vertex ML Metadata, Vertex AI Feature Store, and Vertex AI Vizier",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Vertex AI Pipelines, Vertex AI Experiments, and Vertex AI Vizier",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Vertex ML Metadata, Vertex AI Experiments, and Vertex AI TensorBoard",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Vertex AI Pipelines, Vertex AI Feature Store, and Vertex AI TensorBoard",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 10,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:19:26.740937",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

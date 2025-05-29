@@ -1,0 +1,46 @@
+{
+  "id": "question_63",
+  "number": 63,
+  "topic": "Topic 1",
+  "text": "You work for a large retailer and have been asked to segment your customers by their purchasing habits. The purchase history of all customers has been uploaded to BigQuery. You suspect that there may be several distinct customer segments, however you are unsure of how many, and you don’t yet understand the commonalities in their behavior. You want to find the most efficient solution. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a k-means clustering model using BigQuery ML. Allow BigQuery to automatically optimize the number of clusters.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Create a new dataset in Dataprep that references your BigQuery table. Use Dataprep to identify similarities within each column.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use the Data Labeling Service to label each customer record in BigQuery. Train a model on your labeled data using AutoML Tables. Review the evaluation metrics to understand whether there is an underlying pattern in the data.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Get a list of the customer segments from your company’s Marketing team. Use the Data Labeling Service to label each customer record in BigQuery according to the list. Analyze the distribution of labels in your dataset using Data Studio.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 26,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.96
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:08:44.431928",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

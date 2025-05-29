@@ -1,0 +1,46 @@
+{
+  "id": "question_187",
+  "number": 187,
+  "topic": "Topic 1",
+  "text": "You recently deployed a scikit-learn model to a Vertex AI endpoint. You are now testing the model on live production traffic. While monitoring the endpoint, you discover twice as many requests per hour than expected throughout the day. You want the endpoint to efficiently scale when the demand increases in the future to prevent users from experiencing high latency. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Deploy two models to the same endpoint, and distribute requests among them evenly",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Configure an appropriate minReplicaCount value based on expected baseline traffic",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Set the target utilization percentage in the autoscailngMetricSpecs configuration to a higher value",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Change the model’s machine type to one that utilizes GPUs",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 13,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.846
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:18:12.766065",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

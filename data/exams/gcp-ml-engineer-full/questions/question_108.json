@@ -1,0 +1,46 @@
+{
+  "id": "question_108",
+  "number": 108,
+  "topic": "Topic 1",
+  "text": "You are experimenting with a built-in distributed XGBoost model in Vertex AI Workbench user-managed notebooks. You use BigQuery to split your data into training and validation sets using the following queries:\n\nCREATE OR REPLACE TABLE ‘myproject.mydataset.training‘ AS\n(SELECT * FROM ‘myproject.mydataset.mytable‘ WHERE RAND() <= 0.8);\n\nCREATE OR REPLACE TABLE ‘myproject.mydataset.validation‘ AS\n(SELECT * FROM ‘myproject.mydataset.mytable‘ WHERE RAND() <= 0.2);\n\nAfter training the model, you achieve an area under the receiver operating characteristic curve (AUC ROC) value of 0.8, but after deploying the model to production, you notice that your model performance has dropped to an AUC ROC value of 0.65. What problem is most likely occurring?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is training-serving skew in your production environment.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "There is not a sufficient amount of training data.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "The tables that you created to hold your training and validation records share some records, and you may not be using all the data in your initial table.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "The RAND() function generated a number that is less than 0.2 in both instances, so every record in the validation table will also be in the training table.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 19,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.947
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:12:13.827273",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

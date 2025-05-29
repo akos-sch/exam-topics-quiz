@@ -1,0 +1,46 @@
+{
+  "id": "question_171",
+  "number": 171,
+  "topic": "Topic 1",
+  "text": "You work with a team of researchers to develop state-of-the-art algorithms for financial analysis. Your team develops and debugs complex models in TensorFlow. You want to maintain the ease of debugging while also reducing the model training time. How should you set up your training environment?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Configure a v3-8 TPU VM. SSH into the VM to train and debug the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Configure a v3-8 TPU node. Use Cloud Shell to SSH into the Host VM to train and debug the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Configure a n1 -standard-4 VM with 4 NVIDIA P100 GPUs. SSH into the VM and use ParameterServerStraregv to train the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Configure a n1-standard-4 VM with 4 NVIDIA P100 GPUs. SSH into the VM and use MultiWorkerMirroredStrategy to train the model.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 16,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.75
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:17:02.648810",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

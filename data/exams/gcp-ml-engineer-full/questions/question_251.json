@@ -1,0 +1,46 @@
+{
+  "id": "question_251",
+  "number": 251,
+  "topic": "Topic 1",
+  "text": "You are developing a training pipeline for a new XGBoost classification model based on tabular data. The data is stored in a BigQuery table. You need to complete the following steps:<br/><br/>1. Randomly split the data into training and evaluation datasets in a 65/35 ratio<br/>2. Conduct feature engineering<br/>3. Obtain metrics for the evaluation dataset<br/>4. Compare models trained in different pipeline executions<br/><br/>How should you execute these steps?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Using Vertex AI Pipelines, add a component to divide the data into training and evaluation sets, and add another component for feature engineering.<br/>2. Enable autologging of metrics in the training component.<br/>3. Compare pipeline runs in Vertex AI Experiments.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "1. Using Vertex AI Pipelines, add a component to divide the data into training and evaluation sets, and add another component for feature engineering.<br/>2. Enable autologging of metrics in the training component.<br/>3. Compare models using the artifacts’ lineage in Vertex ML Metadata.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1. In BigQuery ML, use the CREATE MODEL statement with BOOSTED_TREE_CLASSIFIER as the model type and use BigQuery to handle the data splits.<br/>2. Use a SQL view to apply feature engineering and train the model using the data in that view.<br/>3. Compare the evaluation metrics of the models by using a SQL query with the ML.TRAINING_INFO statement.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1. In BigQuery ML, use the CREATE MODEL statement with BOOSTED_TREE_CLASSIFIER as the model type and use BigQuery to handle the data splits.<br/>2. Use ML TRANSFORM to specify the feature engineering transformations and tram the model using the data in the table.<br/>3. Compare the evaluation metrics of the models by using a SQL query with the ML.TRAINING_INFO statement.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 18,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:23:10.957148",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

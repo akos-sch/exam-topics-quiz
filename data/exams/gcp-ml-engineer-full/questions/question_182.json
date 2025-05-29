@@ -1,0 +1,46 @@
+{
+  "id": "question_182",
+  "number": 182,
+  "topic": "Topic 1",
+  "text": "You are deploying a new version of a model to a production Vertex Al endpoint that is serving traffic. You plan to direct all user traffic to the new model. You need to deploy the model with minimal disruption to your application. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Create a new endpoint<br/>2. Create a new model. Set it as the default version. Upload the model to Vertex AI Model Registry<br/>3. Deploy the new model to the new endpoint<br/>4. Update Cloud DNS to point to the new endpoint",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Create a new endpoint<br/>2. Create a new model. Set the parentModel parameter to the model ID of the currently deployed model and set it as the default version. Upload the model to Vertex AI Model Registry<br/>3. Deploy the new model to the new endpoint, and set the new model to 100% of the traffic.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1. Create a new model. Set the parentModel parameter to the model ID of the currently deployed model. Upload the model to Vertex AI Model Registry.<br/>2. Deploy the new model to the existing endpoint, and set the new model to 100% of the traffic",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "1. Create a new model. Set it as the default version. Upload the model to Vertex AI Model Registry<br/>2. Deploy the new model to the existing endpoint",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 10,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.9
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:17:52.456182",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

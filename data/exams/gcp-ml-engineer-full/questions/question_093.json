@@ -1,0 +1,46 @@
+{
+  "id": "question_93",
+  "number": 93,
+  "topic": "Topic 1",
+  "text": "You have been asked to build a model using a dataset that is stored in a medium-sized (~10 GB) BigQuery table. You need to quickly determine whether this data is suitable for model development. You want to create a one-time report that includes both informative visualizations of data distributions and more sophisticated statistical analyses to share with other ML engineers on your team. You require maximum flexibility to create your report. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Vertex AI Workbench user-managed notebooks to generate the report.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use the Google Data Studio to create the report.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use the output from TensorFlow Data Validation on Dataflow to generate the report.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use Dataprep to create the report.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 40,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.59
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:10:45.235839",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

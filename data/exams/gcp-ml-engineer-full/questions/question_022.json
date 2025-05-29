@@ -1,0 +1,46 @@
+{
+  "id": "question_22",
+  "number": 22,
+  "topic": "Topic 1",
+  "text": "You trained a text classification model. You have the following SignatureDefs:<br/><img class=\"in-exam-image\" src=\"/assets/media/exam-media/03841/0001300001.png\"/><br/>You started a TensorFlow-serving component server and tried to send an HTTP request to get a prediction using: headers = {\"content-type\": \"application/json\"} json_response = requests.post('http: //localhost:8501/v1/models/text_model:predict', data=data, headers=headers)<br/>What is the correct way to write the predict request?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "data = json.dumps({ג€signature_nameג€: ג€seving_defaultג€, ג€instancesג€ [['ab', 'bc', 'cd']]})",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "data = json.dumps({ג€signature_nameג€: ג€serving_defaultג€, ג€instancesג€ [['a', 'b', 'c', 'd', 'e', 'f']]})",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "data = json.dumps({ג€signature_nameג€: ג€serving_defaultג€, ג€instancesג€ [['a', 'b', 'c'], ['d', 'e', 'f']]})",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "data = json.dumps({ג€signature_nameג€: ג€serving_defaultג€, ג€instancesג€ [['a', 'b'], ['c', 'd'], ['e', 'f']]})",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 13,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:05:38.696811",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

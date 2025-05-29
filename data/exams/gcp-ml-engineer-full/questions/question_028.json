@@ -1,0 +1,52 @@
+{
+  "id": "question_28",
+  "number": 28,
+  "topic": "Topic 1",
+  "text": "You are training a Resnet model on AI Platform using TPUs to visually categorize types of defects in automobile engines. You capture the training profile using the\nCloud TPU profiler plugin and observe that it is highly input-bound. You want to reduce the bottleneck and speed up your model training process. Which modifications should you make to the tf.data dataset? (Choose two.)",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the interleave option for reading data.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Reduce the value of the repeat parameter.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Increase the buffer size for the shuttle option.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Set the prefetch option equal to the training batch size.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "E",
+      "text": "Decrease the batch size argument in your transformation.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "AD",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 11,
+    "vote_distribution": {},
+    "most_voted_answer": "AD",
+    "confidence_score": 0.9
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:06:00.563337",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

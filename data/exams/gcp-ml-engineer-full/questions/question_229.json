@@ -1,0 +1,46 @@
+{
+  "id": "question_229",
+  "number": 229,
+  "topic": "Topic 1",
+  "text": "You work for a manufacturing company. You need to train a custom image classification model to detect product defects at the end of an assembly line. Although your model is performing well, some images in your holdout set are consistently mislabeled with high confidence. You want to use Vertex AI to understand your model’s results. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Configure feature-based explanations by using Integrated Gradients. Set visualization type to PIXELS, and set clip_percent_upperbound to 95.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create an index by using Vertex AI Matching Engine. Query the index with your mislabeled images.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Configure feature-based explanations by using XRAI. Set visualization type to OUTLINES, and set polarity to positive.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Configure example-based explanations. Specify the embedding output layer to be used for the latent space representation.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 15,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.6
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:21:19.157469",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

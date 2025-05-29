@@ -1,0 +1,46 @@
+{
+  "id": "question_290",
+  "number": 290,
+  "topic": "Topic 1",
+  "text": "You developed a Python module by using Keras to train a regression model. You developed two model architectures, linear regression and deep neural network (DNN), within the same module. You are using the training_method argument to select one of the two methods, and you are using the learning_rate and num_hidden_layers arguments in the DNN. You plan to use Vertex AI's hypertuning service with a budget to perform 100 trials. You want to identify the model architecture and hyperparameter values that minimize training loss and maximize model performance. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Run one hypertuning job for 100 trials. Set num_hidden_layers as a conditional hyperparameter based on its parent hyperparameter training_method, and set learning_rate as a non-conditional hyperparameter.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Run two separate hypertuning jobs, a linear regression job for 50 trials, and a DNN job for 50 trials. Compare their final performance on a common validation set, and select the set of hyperparameters with the least training loss.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Run one hypertuning job with training_method as the hyperparameter for 50 trials. Select the architecture with the lowest training loss, and further hypertune it and its corresponding hyperparameters tor 50 trials.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Run one hypertuning job for 100 trials. Set num_hidden_layers and learning_rate as conditional hyperparameters based on their parent hyperparameter training_method.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 12,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.6666666666666666
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:25:56.100224",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

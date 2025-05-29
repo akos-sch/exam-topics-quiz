@@ -1,0 +1,46 @@
+{
+  "id": "question_92",
+  "number": 92,
+  "topic": "Topic 1",
+  "text": "You work as an ML engineer at a social media company, and you are developing a visual filter for users’ profile photos. This requires you to train an ML model to detect bounding boxes around human faces. You want to use this filter in your company’s iOS-based mobile phone application. You want to minimize code development and want the model to be optimized for inference on mobile phones. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Train a model using AutoML Vision and use the “export for Core ML” option.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Train a model using AutoML Vision and use the “export for Coral” option.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Train a model using AutoML Vision and use the “export for TensorFlow.js” option.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Train a custom TensorFlow model and convert it to TensorFlow Lite (TFLite).",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 27,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.8076923076923077
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:10:41.383601",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

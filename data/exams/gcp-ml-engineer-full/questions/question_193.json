@@ -1,0 +1,46 @@
+{
+  "id": "question_193",
+  "number": 193,
+  "topic": "Topic 1",
+  "text": "Your company stores a large number of audio files of phone calls made to your customer call center in an on-premises database. Each audio file is in wav format and is approximately 5 minutes long. You need to analyze these audio files for customer sentiment. You plan to use the Speech-to-Text API You want to use the most efficient approach. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Upload the audio files to Cloud Storage<br/>2. Call the speech:longrunningrecognize API endpoint to generate transcriptions<br/>3. Call the predict method of an AutoML sentiment analysis model to analyze the transcriptions.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Upload the audio files to Cloud Storage.<br/>2. Call the speech:longrunningrecognize API endpoint to generate transcriptions<br/>3. Create a Cloud Function that calls the Natural Language API by using the analyzeSentiment method",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "1. Iterate over your local files in Python<br/>2. Use the Speech-to-Text Python library to create a speech.RecognitionAudio object, and set the content to the audio file data<br/>3. Call the speech:recognize API endpoint to generate transcriptions<br/>4. Call the predict method of an AutoML sentiment analysis model to analyze the transcriptions.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1. Iterate over your local files in Python<br/>2. Use the Speech-to-Text Python Library to create a speech.RecognitionAudio object and set the content to the audio file data<br/>3. Call the speech:longrunningrecognize API endpoint to generate transcriptions.<br/>4. Call the Natural Language API by using the analyzeSentiment method",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 25,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.7
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:18:41.739587",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

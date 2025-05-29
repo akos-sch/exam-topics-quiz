@@ -1,0 +1,46 @@
+{
+  "id": "question_37",
+  "number": 37,
+  "topic": "Topic 1",
+  "text": "You are developing models to classify customer support emails. You created models with TensorFlow Estimators using small datasets on your on-premises system, but you now need to train the models using large datasets to ensure high performance. You will port your models to Google Cloud and want to minimize code refactoring and infrastructure overhead for easier migration from on-prem to cloud. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use AI Platform for distributed training.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Create a cluster on Dataproc for training.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Create a Managed Instance Group with autoscaling.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use Kubeflow Pipelines to train on a Google Kubernetes Engine cluster.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 15,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.93
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:06:38.675595",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

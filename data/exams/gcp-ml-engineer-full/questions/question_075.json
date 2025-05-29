@@ -1,0 +1,46 @@
+{
+  "id": "question_75",
+  "number": 75,
+  "topic": "Topic 1",
+  "text": "You work at a subscription-based company. You have trained an ensemble of trees and neural networks to predict customer churn, which is the likelihood that customers will not renew their yearly subscription. The average prediction is a 15% churn rate, but for a particular customer the model predicts that they are 70% likely to churn. The customer has a product usage history of 30%, is located in New York City, and became a customer in 1997. You need to explain the difference between the actual prediction, a 70% churn rate, and the average prediction. You want to use Vertex Explainable AI. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Train local surrogate models to explain individual predictions.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Configure sampled Shapley explanations on Vertex Explainable AI.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Configure integrated gradients explanations on Vertex Explainable AI.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Measure the effect of each feature as the weight of the feature multiplied by the feature value.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 24,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.9166666666666666
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:31.757538",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_254",
+  "number": 254,
+  "topic": "Topic 1",
+  "text": "You are working on a prototype of a text classification model in a managed Vertex AI Workbench notebook. You want to quickly experiment with tokenizing text by using a Natural Language Toolkit (NLTK) library. How should you add the library to your Jupyter kernel?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Install the NLTK library from a terminal by using the pip install nltk command.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Write a custom Dataflow job that uses NLTK to tokenize your text and saves the output to Cloud Storage.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Create a new Vertex AI Workbench notebook with a custom image that includes the NLTK library.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Install the NLTK library from a Jupyter cell by using the !pip install nltk --user command.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 12,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:23:22.937005",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

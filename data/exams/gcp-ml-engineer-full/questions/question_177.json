@@ -1,0 +1,46 @@
+{
+  "id": "question_177",
+  "number": 177,
+  "topic": "Topic 1",
+  "text": "You have created a Vertex AI pipeline that includes two steps. The first step preprocesses 10 TB data completes in about 1 hour, and saves the result in a Cloud Storage bucket. The second step uses the processed data to train a model. You need to update the model’s code to allow you to test different algorithms. You want to reduce pipeline execution time and cost while also minimizing pipeline changes. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Add a pipeline parameter and an additional pipeline step. Depending on the parameter value, the pipeline step conducts or skips data preprocessing, and starts model training.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create another pipeline without the preprocessing step, and hardcode the preprocessed Cloud Storage file location for model training.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Configure a machine with more CPU and RAM from the compute-optimized machine family for the data preprocessing step.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Enable caching for the pipeline job, and disable caching for the model training step.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 11,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.8181818181818182
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:17:31.499748",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

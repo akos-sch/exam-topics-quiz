@@ -1,0 +1,46 @@
+{
+  "id": "question_150",
+  "number": 150,
+  "topic": "Topic 1",
+  "text": "You are working on a binary classification ML algorithm that detects whether an image of a classified scanned document contains a company’s logo. In the dataset, 96% of examples don’t have the logo, so the dataset is very skewed. Which metric would give you the most confidence in your model?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Precision",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Recall",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "RMSE",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "F1 score",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 21,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.8
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:15:29.291513",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

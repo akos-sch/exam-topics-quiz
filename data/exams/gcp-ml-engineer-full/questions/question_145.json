@@ -1,0 +1,46 @@
+{
+  "id": "question_145",
+  "number": 145,
+  "topic": "Topic 1",
+  "text": "You have trained a DNN regressor with TensorFlow to predict housing prices using a set of predictive features. Your default precision is tf.float64, and you use a standard TensorFlow estimator:\n\n\nYour model performs well, but just before deploying it to production, you discover that your current serving latency is 10ms @ 90 percentile and you currently serve on CPUs. Your production requirements expect a model latency of 8ms @ 90 percentile. You're willing to accept a small decrease in performance in order to reach the latency requirement.\nTherefore your plan is to improve latency while evaluating how much the model's prediction decreases. What should you first try to quickly lower the serving latency?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Switch from CPU to GPU serving.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Apply quantization to your SavedModel by reducing the floating point precision to tf.float16.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Increase the dropout rate to 0.8 and retrain your model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Increase the dropout rate to 0.8 in _PREDICT mode by adjusting the TensorFlow Serving parameters.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 32,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.6875
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:15:05.280895",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

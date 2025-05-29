@@ -1,0 +1,46 @@
+{
+  "id": "question_15",
+  "number": 15,
+  "topic": "Topic 1",
+  "text": "You have been asked to develop an input pipeline for an ML training model that processes images from disparate sources at a low latency. You discover that your input data does not fit in memory. How should you create a dataset following Google-recommended best practices?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a tf.data.Dataset.prefetch transformation.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Convert the images to tf.Tensor objects, and then run Dataset.from_tensor_slices().",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Convert the images to tf.Tensor objects, and then run tf.data.Dataset.from_tensors().",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Convert the images into TFRecords, store the images in Cloud Storage, and then use the tf.data API to read the images for training.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 26,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.9615384615384616
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:04:56.654029",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

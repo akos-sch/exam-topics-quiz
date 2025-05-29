@@ -1,0 +1,46 @@
+{
+  "id": "question_73",
+  "number": 73,
+  "topic": "Topic 1",
+  "text": "You work for a global footwear retailer and need to predict when an item will be out of stock based on historical inventory data Customer behavior is highly dynamic since footwear demand is influenced by many different factors. You want to serve models that are trained on all available data, but track your performance on specific subsets of data before pushing to production. What is the most streamlined and reliable way to perform this validation?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use then TFX ModelValidator tools to specify performance metrics for production readiness.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use k-fold cross-validation as a validation strategy to ensure that your model is ready for production.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use the last relevant week of data as a validation set to ensure that your model is performing accurately on current data.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use the entire dataset and treat the area under the receiver operating characteristics curve (AUC ROC) as the main metric.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 58,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.5833333333333334
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:24.423947",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_202",
+  "number": 202,
+  "topic": "Topic 1",
+  "text": "You work for a startup that has multiple data science workloads. Your compute infrastructure is currently on-premises, and the data science workloads are native to PySpark. Your team plans to migrate their data science workloads to Google Cloud. You need to build a proof of concept to migrate one data science job to Google Cloud. You want to propose a migration process that requires minimal cost and effort. What should you do first?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a n2-standard-4 VM instance and install Java, Scala, and Apache Spark dependencies on it.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create a Google Kubernetes Engine cluster with a basic node pool configuration, install Java, Scala, and Apache Spark dependencies on it.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Create a Standard (1 master, 3 workers) Dataproc cluster, and run a Vertex AI Workbench notebook instance on it.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Create a Vertex AI Workbench notebook with instance type n2-standard-4.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 25,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.5333333333333333
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:19:23.140410",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

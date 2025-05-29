@@ -1,0 +1,46 @@
+{
+  "id": "question_72",
+  "number": 72,
+  "topic": "Topic 1",
+  "text": "You are building a linear model with over 100 input features, all with values between –1 and 1. You suspect that many features are non-informative. You want to remove the non-informative features from your model while keeping the informative ones in their original form. Which technique should you use?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use principal component analysis (PCA) to eliminate the least informative features.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use L1 regularization to reduce the coefficients of uninformative features to 0.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "After building your model, use Shapley values to determine which features are the most informative.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use an iterative dropout technique to identify which features do not degrade the model when removed.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 21,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.75
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:20.577904",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

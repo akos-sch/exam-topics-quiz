@@ -1,0 +1,46 @@
+{
+  "id": "question_224",
+  "number": 224,
+  "topic": "Topic 1",
+  "text": "You are building a MLOps platform to automate your company’s ML experiments and model retraining. You need to organize the artifacts for dozens of pipelines. How should you store the pipelines’ artifacts?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Store parameters in Cloud SQL, and store the models’ source code and binaries in GitHub.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Store parameters in Cloud SQL, store the models’ source code in GitHub, and store the models’ binaries in Cloud Storage.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Store parameters in Vertex ML Metadata, store the models’ source code in GitHub, and store the models’ binaries in Cloud Storage.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Store parameters in Vertex ML Metadata and store the models’ source code and binaries in GitHub.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 8,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:20:52.208537",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

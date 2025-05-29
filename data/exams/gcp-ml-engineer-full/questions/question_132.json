@@ -1,0 +1,46 @@
+{
+  "id": "question_132",
+  "number": 132,
+  "topic": "Topic 1",
+  "text": "You work on a data science team at a bank and are creating an ML model to predict loan default risk. You have collected and cleaned hundreds of millions of records worth of training data in a BigQuery table, and you now want to develop and compare multiple models on this data using TensorFlow and Vertex AI. You want to minimize any bottlenecks during the data ingestion state while considering scalability. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the BigQuery client library to load data into a dataframe, and use tf.data.Dataset.from_tensor_slices() to read it.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Export data to CSV files in Cloud Storage, and use tf.data.TextLineDataset() to read them.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Convert the data into TFRecords, and use tf.data.TFRecordDataset() to read them.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use TensorFlow I/O’s BigQuery Reader to directly read the data.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 23,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.9565217391304348
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:14:04.266622",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

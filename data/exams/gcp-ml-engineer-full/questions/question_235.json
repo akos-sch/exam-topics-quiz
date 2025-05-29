@@ -1,0 +1,46 @@
+{
+  "id": "question_235",
+  "number": 235,
+  "topic": "Topic 1",
+  "text": "You are using Vertex AI and TensorFlow to develop a custom image classification model. You need the model’s decisions and the rationale to be understandable to your company’s stakeholders. You also want to explore the results to identify any issues or potential biases. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Use TensorFlow to generate and visualize features and statistics.<br/>2. Analyze the results together with the standard model evaluation metrics.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Use TensorFlow Profiler to visualize the model execution.<br/>2. Analyze the relationship between incorrect predictions and execution bottlenecks.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1. Use Vertex Explainable AI to generate example-based explanations.<br/>2. Visualize the results of sample inputs from the entire dataset together with the standard model evaluation metrics.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1. Use Vertex Explainable AI to generate feature attributions. Aggregate feature attributions over the entire dataset.<br/>2. Analyze the aggregation result together with the standard model evaluation metrics.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 19,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.842
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:21:45.930543",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

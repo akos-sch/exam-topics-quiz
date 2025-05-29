@@ -1,0 +1,46 @@
+{
+  "id": "question_308",
+  "number": 308,
+  "topic": "Topic 1",
+  "text": "You are an ML engineer at a bank. The bank's leadership team wants to reduce the number of loan defaults. The bank has labeled historic data about loan defaults stored in BigQuery. You have been asked to use AI to support the loan application process. For compliance reasons, you need to provide explanations for loan rejections. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Import the historic loan default data into AutoML. Train and deploy a linear regression model to predict default probability. Report the probability of default for each loan application.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create a custom application that uses the Gemini large language model (LLM). Provide the historic data as context to the model, and prompt the model to predict customer defaults. Report the prediction and explanation provided by the LLM for each loan application.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Train and deploy a BigQuery ML classification model trained on historic loan default data. Enable feature-based explanations for each prediction. Report the prediction, probability of default, and feature attributions for each loan application.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Load the historic loan default data into a Vertex AI Workbench instance. Train a deep learning classification model using TensorFlow to predict loan default. Run inference for each loan application, and report the predictions.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 1,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:27:06.561256",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

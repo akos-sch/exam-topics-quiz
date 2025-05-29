@@ -1,0 +1,46 @@
+{
+  "id": "question_174",
+  "number": 174,
+  "topic": "Topic 1",
+  "text": "You developed a custom model by using Vertex AI to forecast the sales of your company’s products based on historical transactional data. You anticipate changes in the feature distributions and the correlations between the features in the near future. You also expect to receive a large volume of prediction requests. You plan to use Vertex AI Model Monitoring for drift detection and you want to minimize the cost. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the features for monitoring. Set a monitoring-frequency value that is higher than the default.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use the features for monitoring. Set a prediction-sampling-rate value that is closer to 1 than 0.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use the features and the feature attributions for monitoring. Set a monitoring-frequency value that is lower than the default.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use the features and the feature attributions for monitoring. Set a prediction-sampling-rate value that is closer to 0 than 1.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 10,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:17:14.849317",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

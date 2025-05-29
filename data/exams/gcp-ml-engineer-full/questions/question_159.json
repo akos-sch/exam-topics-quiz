@@ -1,0 +1,46 @@
+{
+  "id": "question_159",
+  "number": 159,
+  "topic": "Topic 1",
+  "text": "Your organization manages an online message board. A few months ago, you discovered an increase in toxic language and bullying on the message board. You deployed an automated text classifier that flags certain comments as toxic or harmful. Now some users are reporting that benign comments referencing their religion are being misclassified as abusive. Upon further inspection, you find that your classifier's false positive rate is higher for comments that reference certain underrepresented religious groups. Your team has a limited budget and is already overextended. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Add synthetic training data where those phrases are used in non-toxic ways.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Remove the model and replace it with human moderation.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Replace your model with a different text classifier.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Raise the threshold for comments to be considered toxic or harmful.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 27,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.55
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:16:10.502564",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

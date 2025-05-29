@@ -1,0 +1,46 @@
+{
+  "id": "question_44",
+  "number": 44,
+  "topic": "Topic 1",
+  "text": "You work for a large technology company that wants to modernize their contact center. You have been asked to develop a solution to classify incoming calls by product so that requests can be more quickly routed to the correct support team. You have already transcribed the calls using the Speech-to-Text API. You want to minimize data preprocessing and development time. How should you build the model?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the AI Platform Training built-in algorithms to create a custom model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use AutoMlL Natural Language to extract custom entities for classification.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Use the Cloud Natural Language API to extract custom entities for classification.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Build a custom model to identify the product keywords from the transcribed calls, and then run the keywords through a classification algorithm.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 17,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.5294117647058824
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:07:11.121064",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

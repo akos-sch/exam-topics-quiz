@@ -1,0 +1,46 @@
+{
+  "id": "question_109",
+  "number": 109,
+  "topic": "Topic 1",
+  "text": "During batch training of a neural network, you notice that there is an oscillation in the loss. How should you adjust your model to ensure that it converges?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Decrease the size of the training batch.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Decrease the learning rate hyperparameter.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Increase the learning rate hyperparameter.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Increase the size of the training batch.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 18,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.8888888888888888
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:12:20.389980",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

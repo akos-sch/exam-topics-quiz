@@ -1,0 +1,46 @@
+{
+  "id": "question_317",
+  "number": 317,
+  "topic": "Topic 1",
+  "text": "You have developed a fraud detection model for a large financial institution using Vertex AI. The model achieves high accuracy, but the stakeholders are concerned about the model's potential for bias based on customer demographics. You have been asked to provide insights into the model's decision-making process and identify any fairness issues. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create feature groups using Vertex AI Feature Store to segregate customer demographic features and non-demographic features. Retrain the model using only non-demographic features.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use feature attribution in Vertex AI to analyze model predictions and the impact of each feature on the model's predictions.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Enable Vertex AI Model Monitoring to detect training-serving skew. Configure an alert to send an email when the skew or drift for a modes feature exceeds a predefined threshold. Re-train the model by appending new data to existing raining data.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Compile a dataset of unfair predictions. Use Vertex AI Vector Search to identify similar data points in the model's predictions. Report these data points to the stakeholders.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 1,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:27:40.829316",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

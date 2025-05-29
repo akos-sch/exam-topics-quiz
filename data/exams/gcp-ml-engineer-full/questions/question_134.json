@@ -1,0 +1,46 @@
+{
+  "id": "question_134",
+  "number": 134,
+  "topic": "Topic 1",
+  "text": "You are the Director of Data Science at a large company, and your Data Science team has recently begun using the Kubeflow Pipelines SDK to orchestrate their training pipelines. Your team is struggling to integrate their custom Python code into the Kubeflow Pipelines SDK. How should you instruct them to proceed in order to quickly integrate their code with the Kubeflow Pipelines SDK?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the func_to_container_op function to create custom components from the Python code.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use the predefined components available in the Kubeflow Pipelines SDK to access Dataproc, and run the custom code there.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Package the custom Python code into Docker containers, and use the load_component_from_file function to import the containers into the pipeline.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Deploy the custom Python code to Cloud Functions, and use Kubeflow Pipelines to trigger the Cloud Function.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 14,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:14:12.428566",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

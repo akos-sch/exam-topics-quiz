@@ -1,0 +1,46 @@
+{
+  "id": "question_319",
+  "number": 319,
+  "topic": "Topic 1",
+  "text": "You work as an ML researcher at an investment bank, and you are experimenting with the Gemma large language model (LLM). You plan to deploy the model for an internal use case. You need to have full control of the mode's underlying infrastructure and minimize the model's inference time. Which serving configuration should you use for this task?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Deploy the model on a Vertex AI endpoint manually by creating a custom inference container.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Deploy the model on a Google Kubernetes Engine (GKE) cluster by using the deployment options in Model Garden.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Deploy the model on a Vertex AI endpoint by using one-click deployment in Model Garden.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Deploy the model on a Google Kubernetes Engine (GKE) cluster manually by cresting a custom yaml manifest.",
+      "is_most_voted": true,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 2,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:27:48.493874",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

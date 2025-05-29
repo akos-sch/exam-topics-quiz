@@ -1,0 +1,46 @@
+{
+  "id": "question_162",
+  "number": 162,
+  "topic": "Topic 1",
+  "text": "You built a custom ML model using scikit-learn. Training time is taking longer than expected. You decide to migrate your model to Vertex AI Training, and you want to improve the model’s training time. What should you try out first?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Train your model in a distributed mode using multiple Compute Engine VMs.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Train your model using Vertex AI Training with CPUs.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Migrate your model to TensorFlow, and train it using Vertex AI Training.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Train your model using Vertex AI Training with GPUs.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 12,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.5714285714285714
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:16:21.992416",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

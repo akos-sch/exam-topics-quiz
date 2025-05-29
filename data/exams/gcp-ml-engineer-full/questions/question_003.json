@@ -1,0 +1,46 @@
+{
+  "id": "question_3",
+  "number": 3,
+  "topic": "Topic 1",
+  "text": "You were asked to investigate failures of a production line component based on sensor readings. After receiving the dataset, you discover that less than 1% of the readings are positive examples representing failure incidents. You have tried to train several classification models, but none of them converge. How should you resolve the class imbalance problem?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the class distribution to generate 10% positive examples.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use a convolutional neural network with max pooling and softmax activation.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Downsample the data with upweighting to create a sample with 10% positive examples.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Remove negative examples until the numbers of positive and negative examples are equal.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 15,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.93
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:04:02.636042",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_45",
+  "number": 45,
+  "topic": "Topic 1",
+  "text": "You are training a TensorFlow model on a structured dataset with 100 billion records stored in several CSV files. You need to improve the input/output execution performance. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Load the data into BigQuery, and read the data from BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Load the data into Cloud Bigtable, and read the data from Bigtable.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Convert the CSV files into shards of TFRecords, and store the data in Cloud Storage.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Convert the CSV files into shards of TFRecords, and store the data in the Hadoop Distributed File System (HDFS).",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 22,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.714
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:07:18.628720",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "question_269",
+  "number": 269,
+  "topic": "Topic 1",
+  "text": "You are developing a model to help your company create more targeted online advertising campaigns. You need to create a dataset that you will use to train the model. You want to avoid creating or reinforcing unfair bias in the model. What should you do? (Choose two.)",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Include a comprehensive set of demographic features",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Include only the demographic groups that most frequently interact with advertisements",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Collect a random sample of production traffic to build the training dataset",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Collect a stratified sample of production traffic to build the training dataset",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "E",
+      "text": "Conduct fairness tests across sensitive categories and demographics on the trained model",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 20,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.9411764705882353
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:24:29.358974",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

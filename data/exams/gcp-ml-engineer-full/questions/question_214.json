@@ -1,0 +1,46 @@
+{
+  "id": "question_214",
+  "number": 214,
+  "topic": "Topic 1",
+  "text": "You are developing an ML pipeline using Vertex AI Pipelines. You want your pipeline to upload a new version of the XGBoost model to Vertex AI Model Registry and deploy it to Vertex AI Endpoints for online inference. You want to use the simplest approach. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the Vertex AI REST API within a custom component based on a vertex-ai/prediction/xgboost-cpu image",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use the Vertex AI ModelEvaluationOp component to evaluate the model",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use the Vertex AI SDK for Python within a custom component based on a python:3.10 image",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Chain the Vertex AI ModelUploadOp and ModelDeployOp components together",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 7,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:20:13.276524",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

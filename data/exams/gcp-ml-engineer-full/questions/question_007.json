@@ -1,0 +1,46 @@
+{
+  "id": "question_7",
+  "number": 7,
+  "topic": "Topic 1",
+  "text": "You need to build classification workflows over several structured datasets currently stored in BigQuery. Because you will be performing the classification several times, you want to complete the following steps without writing code: exploratory data analysis, feature selection, model building, training, and hyperparameter tuning and serving. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Configure AutoML Tables to perform the classification task.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Run a BigQuery ML task to perform logistic regression for the classification.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use AI Platform Notebooks to run the classification model with pandas library.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use AI Platform to run the classification model job configured for hyperparameter tuning.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 14,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.9285714285714286
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:04:22.892952",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

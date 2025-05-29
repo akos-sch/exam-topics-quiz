@@ -1,0 +1,46 @@
+{
+  "id": "question_8",
+  "number": 8,
+  "topic": "Topic 1",
+  "text": "You work for a public transportation company and need to build a model to estimate delay times for multiple transportation routes. Predictions are served directly to users in an app in real time. Because different seasons and population increases impact the data relevance, you will retrain the model every month. You want to follow Google-recommended best practices. How should you configure the end-to-end architecture of the predictive model?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Configure Kubeflow Pipelines to schedule your multi-step workflow from training to deploying your model.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use a model trained and deployed on BigQuery ML, and trigger retraining with the scheduled query feature in BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Write a Cloud Functions script that launches a training and deploying job on AI Platform that is triggered by Cloud Scheduler.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use Cloud Composer to programmatically schedule a Dataflow job that executes the workflow from training to deploying your model.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 14,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:04:26.554950",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

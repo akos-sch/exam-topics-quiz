@@ -1,0 +1,46 @@
+{
+  "id": "question_33",
+  "number": 33,
+  "topic": "Topic 1",
+  "text": "You have a demand forecasting pipeline in production that uses Dataflow to preprocess raw data prior to model training and prediction. During preprocessing, you employ Z-score normalization on data stored in BigQuery and write it back to BigQuery. New training data is added every week. You want to make the process more efficient by minimizing computation time and manual intervention. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Normalize the data using Google Kubernetes Engine.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Translate the normalization algorithm into SQL for use with BigQuery.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Use the normalizer_fn argument in TensorFlow's Feature Column API.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Normalize the data with Apache Spark using the Dataproc connector for BigQuery.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 19,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.8888888888888888
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:06:23.555200",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

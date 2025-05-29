@@ -1,0 +1,46 @@
+{
+  "id": "question_67",
+  "number": 67,
+  "topic": "Topic 1",
+  "text": "You have a large corpus of written support cases that can be classified into 3 separate categories: Technical Support, Billing Support, or Other Issues. You need to quickly build, test, and deploy a service that will automatically classify future written requests into one of the categories. How should you configure the pipeline?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the Cloud Natural Language API to obtain metadata to classify the incoming cases.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use AutoML Natural Language to build and test a classifier. Deploy the model as a REST API.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Use BigQuery ML to build and test a logistic regression model to classify incoming requests. Use BigQuery ML to perform inference.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Create a TensorFlow model using Google’s BERT pre-trained model. Build and test a classifier, and deploy the model using Vertex AI.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 20,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.8
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:08:59.136744",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_130",
+  "number": 130,
+  "topic": "Topic 1",
+  "text": "You are working on a system log anomaly detection model for a cybersecurity organization. You have developed the model using TensorFlow, and you plan to use it for real-time prediction. You need to create a Dataflow pipeline to ingest data via Pub/Sub and write the results to BigQuery. You want to minimize the serving latency as much as possible. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Containerize the model prediction logic in Cloud Run, which is invoked by Dataflow.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Load the model directly into the Dataflow job as a dependency, and use it for prediction.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Deploy the model to a Vertex AI endpoint, and invoke this endpoint in the Dataflow job.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Deploy the model in a TFServing container on Google Kubernetes Engine, and invoke it in the Dataflow job.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 41,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.51
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:13:50.602953",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

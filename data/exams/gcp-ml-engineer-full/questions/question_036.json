@@ -1,0 +1,46 @@
+{
+  "id": "question_36",
+  "number": 36,
+  "topic": "Topic 1",
+  "text": "You are building a model to predict daily temperatures. You split the data randomly and then transformed the training and test datasets. Temperature data for model training is uploaded hourly. During testing, your model performed with 97% accuracy; however, after deploying to production, the model's accuracy dropped to 66%. How can you make your production model more accurate?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Normalize the data for the training, and test datasets as two separate steps.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Split the training and test data based on time rather than a random split to avoid leakage.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Add more data to your test set to ensure that you have a fair distribution and sample for testing.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Apply data transformations before splitting, and cross-validate to make sure that the transformations are applied to both the training and test sets.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 19,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.8421
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:06:35.282509",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

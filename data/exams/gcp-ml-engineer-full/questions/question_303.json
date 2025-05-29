@@ -1,0 +1,46 @@
+{
+  "id": "question_303",
+  "number": 303,
+  "topic": "Topic 1",
+  "text": "You work for a media company that operates a streaming movie platform where users can search for movies in a database. The existing search algorithm uses keyword matching to return results. Recently, you have observed an increase in searches using complex semantic queries that include the movies’ metadata such as the actor, genre, and director.\n\nYou need to build a revamped search solution that will provide better results, and you need to build this proof of concept as quickly as possible. How should you build the search platform?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use a foundational large language model (LLM) from Model Garden as the search platform’s backend.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Configure Vertex AI Vector Search as the search platform’s backend.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Use a BERT-based model and host it on a Vertex AI endpoint.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Create the search platform through Vertex AI Agent Builder.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 3,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:46.563124",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

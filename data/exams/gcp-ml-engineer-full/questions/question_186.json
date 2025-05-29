@@ -1,0 +1,46 @@
+{
+  "id": "question_186",
+  "number": 186,
+  "topic": "Topic 1",
+  "text": "You have been tasked with deploying prototype code to production. The feature engineering code is in PySpark and runs on Dataproc Serverless. The model training is executed by using a Vertex AI custom training job. The two steps are not connected, and the model training must currently be run manually after the feature engineering step finishes. You need to create a scalable and maintainable production process that runs end-to-end and tracks the connections between steps. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a Vertex AI Workbench notebook. Use the notebook to submit the Dataproc Serverless feature engineering job. Use the same notebook to submit the custom model training job. Run the notebook cells sequentially to tie the steps together end-to-end.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create a Vertex AI Workbench notebook. Initiate an Apache Spark context in the notebook and run the PySpark feature engineering code. Use the same notebook to run the custom model training job in TensorFlow. Run the notebook cells sequentially to tie the steps together end-to-end.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use the Kubeflow pipelines SDK to write code that specifies two components:<br/>- The first is a Dataproc Serverless component that launches the feature engineering job<br/>- The second is a custom component wrapped in the create_custom_training_job_from_component utility that launches the custom model training job<br/>Create a Vertex AI Pipelines job to link and run both components",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Use the Kubeflow pipelines SDK to write code that specifies two components<br/>- The first component initiates an Apache Spark context that runs the PySpark feature engineering code<br/>- The second component runs the TensorFlow custom model training code<br/>Create a Vertex AI Pipelines job to link and run both components.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 8,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:18:09.217049",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

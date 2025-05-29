@@ -1,0 +1,46 @@
+{
+  "id": "question_55",
+  "number": 55,
+  "topic": "Topic 1",
+  "text": "You recently joined a machine learning team that will soon release a new project. As a lead on the project, you are asked to determine the production readiness of the ML components. The team has already tested features and data, model development, and infrastructure. Which additional readiness check should you recommend to the team?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Ensure that training is reproducible.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Ensure that all hyperparameters are tuned.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Ensure that model performance is monitored.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Ensure that feature expectations are captured in the schema.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 18,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.944
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:08:04.161971",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

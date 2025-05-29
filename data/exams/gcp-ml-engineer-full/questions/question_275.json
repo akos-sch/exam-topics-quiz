@@ -1,0 +1,46 @@
+{
+  "id": "question_275",
+  "number": 275,
+  "topic": "Topic 1",
+  "text": "You have trained an XGBoost model that you plan to deploy on Vertex AI for online prediction. You are now uploading your model to Vertex AI Model Registry, and you need to configure the explanation method that will serve online prediction requests to be returned with minimal latency. You also want to be alerted when feature attributions of the model meaningfully change over time. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Specify sampled Shapley as the explanation method with a path count of 5.<br/>2. Deploy the model to Vertex AI Endpoints.<br/>3. Create a Model Monitoring job that uses prediction drift as the monitoring objective.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "1. Specify Integrated Gradients as the explanation method with a path count of 5.<br/>2. Deploy the model to Vertex AI Endpoints.<br/>3. Create a Model Monitoring job that uses prediction drift as the monitoring objective.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1. Specify sampled Shapley as the explanation method with a path count of 50.<br/>2. Deploy the model to Vertex AI Endpoints.<br/>3. Create a Model Monitoring job that uses training-serving skew as the monitoring objective.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1. Specify Integrated Gradients as the explanation method with a path count of 50.<br/>2. Deploy the model to Vertex AI Endpoints.<br/>3. Create a Model Monitoring job that uses training-serving skew as the monitoring objective.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 10,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:24:54.752681",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

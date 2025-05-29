@@ -1,0 +1,46 @@
+{
+  "id": "question_122",
+  "number": 122,
+  "topic": "Topic 1",
+  "text": "You recently built the first version of an image segmentation model for a self-driving car. After deploying the model, you observe a decrease in the area under the curve (AUC) metric. When analyzing the video recordings, you also discover that the model fails in highly congested traffic but works as expected when there is less traffic. What is the most likely reason for this result?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The model is overfitting in areas with less traffic and underfitting in areas with more traffic.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "AUC is not the correct metric to evaluate this classification model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Too much data representing congested areas was used for model training.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Gradients become small and vanish while backpropagating from the output to input nodes.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 20,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.7894736842105263
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:13:19.832924",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

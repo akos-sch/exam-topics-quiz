@@ -1,0 +1,46 @@
+{
+  "id": "question_230",
+  "number": 230,
+  "topic": "Topic 1",
+  "text": "You are training models in Vertex AI by using data that spans across multiple Google Cloud projects. You need to find, track, and compare the performance of the different versions of your models. Which Google Cloud services should you include in your ML workflow?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Dataplex, Vertex AI Feature Store, and Vertex AI TensorBoard",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Vertex AI Pipelines, Vertex AI Feature Store, and Vertex AI Experiments",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Dataplex, Vertex AI Experiments, and Vertex AI ML Metadata",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Vertex AI Pipelines, Vertex AI Experiments, and Vertex AI Metadata",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 16,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.6428571428571429
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:21:24.887587",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

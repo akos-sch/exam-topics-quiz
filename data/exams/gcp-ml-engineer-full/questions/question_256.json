@@ -1,0 +1,46 @@
+{
+  "id": "question_256",
+  "number": 256,
+  "topic": "Topic 1",
+  "text": "You work for an online grocery store. You recently developed a custom ML model that recommends a recipe when a user arrives at the website. You chose the machine type on the Vertex AI endpoint to optimize costs by using the queries per second (QPS) that the model can serve, and you deployed it on a single machine with 8 vCPUs and no accelerators.<br/><br/>A holiday season is approaching and you anticipate four times more traffic during this time than the typical daily traffic. You need to ensure that the model can scale efficiently to the increased demand. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1. Maintain the same machine type on the endpoint.<br/>2. Set up a monitoring job and an alert for CPU usage.<br/>3. If you receive an alert, add a compute node to the endpoint.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Change the machine type on the endpoint to have 32 vCPUs.<br/>2. Set up a monitoring job and an alert for CPU usage.<br/>3. If you receive an alert, scale the vCPUs further as needed.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1. Maintain the same machine type on the endpoint Configure the endpoint to enable autoscaling based on vCPU usage.<br/>2. Set up a monitoring job and an alert for CPU usage.<br/>3. If you receive an alert, investigate the cause.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "1. Change the machine type on the endpoint to have a GPU. Configure the endpoint to enable autoscaling based on the GPU usage.<br/>2. Set up a monitoring job and an alert for GPU usage.<br/>3. If you receive an alert, investigate the cause.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 13,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.923
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:23:31.470052",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_298",
+  "number": 298,
+  "topic": "Topic 1",
+  "text": "Your team is developing a customer support chatbot for a healthcare company that processes sensitive patient information. You need to ensure that all personally identifiable information (PII) captured during customer conversations is protected prior to storing or analyzing the data. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the Cloud Natural Language API to identify and redact PII in chatbot conversations.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use the Cloud Natural Language API to classify and categorize all data, including PII, in chatbot conversations.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use the DLP API to encrypt PII in chatbot conversations before storing the data.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use the DLP API to scan and de-identify PII in chatbot conversations before storing the data.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 1,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:27.601228",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

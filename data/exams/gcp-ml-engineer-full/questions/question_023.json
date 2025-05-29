@@ -1,0 +1,46 @@
+{
+  "id": "question_23",
+  "number": 23,
+  "topic": "Topic 1",
+  "text": "Your organization's call center has asked you to develop a model that analyzes customer sentiments in each call. The call center receives over one million calls daily, and data is stored in Cloud Storage. The data collected must not leave the region in which the call originated, and no Personally Identifiable Information (PII) can be stored or analyzed. The data science team has a third-party tool for visualization and access which requires a SQL ANSI-2011 compliant interface. You need to select components for data processing and for analytics. How should the data pipeline be designed?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1= Dataflow, 2= BigQuery",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "1 = Pub/Sub, 2= Datastore",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1 = Dataflow, 2 = Cloud SQL",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1 = Cloud Function, 2= Cloud SQL",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 14,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.5
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:05:42.376621",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

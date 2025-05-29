@@ -1,0 +1,46 @@
+{
+  "id": "question_82",
+  "number": 82,
+  "topic": "Topic 1",
+  "text": "You are profiling the performance of your TensorFlow model training time and notice a performance issue caused by inefficiencies in the input data pipeline for a single 5 terabyte CSV file dataset on Cloud Storage. You need to optimize the input pipeline performance. Which action should you try first to increase the efficiency of your pipeline?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Preprocess the input CSV file into a TFRecord file.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Randomly select a 10 gigabyte subset of the data to train your model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Split into multiple CSV files and use a parallel interleave transformation.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Set the reshuffle_each_iteration parameter to true in the tf.data.Dataset.shuffle method.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 30,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.55
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:59.200222",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_297",
+  "number": 297,
+  "topic": "Topic 1",
+  "text": "You work for an ecommerce company that wants to automatically classify products in images to improve user experience. You have a substantial dataset of labeled images depicting various unique products. You need to implement a solution for identifying custom products that is scalable, effective, and can be rapidly deployed. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Develop a rule-based system to categorize the images.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use a TensorFlow deep learning model that is trained on the image dataset.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use a pre-trained object detection model from Model Garden.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use AutoML Vision to train a model using the image dataset.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 1,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:23.982522",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

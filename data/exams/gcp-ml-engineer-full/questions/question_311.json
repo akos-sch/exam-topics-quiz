@@ -1,0 +1,46 @@
+{
+  "id": "question_311",
+  "number": 311,
+  "topic": "Topic 1",
+  "text": "You lead a data science team that is working on a computationally intensive project involving running several experiments. Your team is geographically distributed and requires a platform that provides the most effective real-time collaboration and rapid experimentation. You plan to add GPUs to speed up your experimentation cycle, and you want to avoid having to manually set up the infrastructure. You want to use the Google-recommended approach. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Configure a managed Dataproc cluster for large-scale data processing. Configure individual Jupyter notebooks on VMs that each team member uses for experimentation and model development.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use Colab Enterprise with Cloud Storage for data management. Use a Git repository for version control.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Vertex AI Workbench and Cloud Storage for data management. Use a Git repository for version control.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Configure a distributed JupyterLab instance that each team member can access on a Compute Engine VM. Use a shared code repository for version control.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 2,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:27:18.020154",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_114",
+  "number": 114,
+  "topic": "Topic 1",
+  "text": "You work for a gaming company that manages a popular online multiplayer game where teams with 6 players play against each other in 5-minute battles. There are many new players every day. You need to build a model that automatically assigns available players to teams in real time. User research indicates that the game is more enjoyable when battles have players with similar skill levels. Which business metrics should you track to measure your model’s performance?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Average time players wait before being assigned to a team",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Precision and recall of assigning players to teams based on their predicted versus actual ability",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "User engagement as measured by the number of battles played daily per user",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Rate of return as measured by additional revenue generated minus the cost of developing a new model",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 60,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.6166666666666667
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:12:43.328580",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

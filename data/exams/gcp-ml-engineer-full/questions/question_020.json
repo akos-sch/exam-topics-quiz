@@ -1,0 +1,46 @@
+{
+  "id": "question_20",
+  "number": 20,
+  "topic": "Topic 1",
+  "text": "You are training an LSTM-based model on AI Platform to summarize text using the following job submission script: gcloud ai-platform jobs submit training $JOB_NAME <br/>--package-path $TRAINER_PACKAGE_PATH <br/>--module-name $MAIN_TRAINER_MODULE <br/>--job-dir $JOB_DIR <br/>--region $REGION <br/>--scale-tier basic <br/>-- <br/>--epochs 20 <br/>--batch_size=32 <br/>--learning_rate=0.001 <br/>You want to ensure that training time is minimized without significantly compromising the accuracy of your model. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Modify the 'epochs' parameter.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Modify the 'scale-tier' parameter.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Modify the 'batch size' parameter.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Modify the 'learning rate' parameter.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 16,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.8
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:05:26.520540",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_49",
+  "number": 49,
+  "topic": "Topic 1",
+  "text": "You work for an online travel agency that also sells advertising placements on its website to other companies. You have been asked to predict the most relevant web banner that a user should see next. Security is important to your company. The model latency requirements are 300ms@p99, the inventory is thousands of web banners, and your exploratory analysis has shown that navigation context is a good predictor. You want to Implement the simplest solution. How should you configure the prediction pipeline?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Embed the client on the website, and then deploy the model on AI Platform Prediction.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Embed the client on the website, deploy the gateway on App Engine, and then deploy the model on AI Platform Prediction.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Embed the client on the website, deploy the gateway on App Engine, deploy the database on Cloud Bigtable for writing and for reading the user's navigation context, and then deploy the model on AI Platform Prediction.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Embed the client on the website, deploy the gateway on App Engine, deploy the database on Memorystore for writing and for reading the user's navigation context, and then deploy the model on Google Kubernetes Engine.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 48,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.625
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:07:34.629185",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

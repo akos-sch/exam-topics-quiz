@@ -1,0 +1,46 @@
+{
+  "id": "question_219",
+  "number": 219,
+  "topic": "Topic 1",
+  "text": "Your company manages an ecommerce website. You developed an ML model that recommends additional products to users in near real time based on items currently in the user’s cart. The workflow will include the following processes:\n\n1. The website will send a Pub/Sub message with the relevant data and then receive a message with the prediction from Pub/Sub\n2. Predictions will be stored in BigQuery\n3. The model will be stored in a Cloud Storage bucket and will be updated frequently\n\nYou want to minimize prediction latency and the effort required to update the model. How should you reconfigure the architecture?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Write a Cloud Function that loads the model into memory for prediction. Configure the function to be triggered when messages are sent to Pub/Sub.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create a pipeline in Vertex AI Pipelines that performs preprocessing, prediction, and postprocessing. Configure the pipeline to be triggered by a Cloud Function when messages are sent to Pub/Sub.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Expose the model as a Vertex AI endpoint. Write a custom DoFn in a Dataflow job that calls the endpoint for prediction.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use the RunInference API with WatchFilePattern in a Dataflow job that wraps around the model and serves predictions.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 18,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.647
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:20:32.276734",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

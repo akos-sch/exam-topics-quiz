@@ -1,0 +1,46 @@
+{
+  "id": "question_5",
+  "number": 5,
+  "topic": "Topic 1",
+  "text": "You manage a team of data scientists who use a cloud-based backend system to submit training jobs. This system has become very difficult to administer, and you want to use a managed service instead. The data scientists you work with use many different frameworks, including Keras, PyTorch, theano, Scikit-learn, and custom libraries. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the AI Platform custom containers feature to receive training jobs using any framework.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Configure Kubeflow to run on Google Kubernetes Engine and receive training jobs through TF Job.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Create a library of VM images on Compute Engine, and publish these images on a centralized repository.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Set up Slurm workload manager to receive jobs that can be scheduled to run on your cloud infrastructure.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 22,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.95
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:04:15.400567",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

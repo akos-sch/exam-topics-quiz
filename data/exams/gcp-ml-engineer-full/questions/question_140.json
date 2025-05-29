@@ -1,0 +1,46 @@
+{
+  "id": "question_140",
+  "number": 140,
+  "topic": "Topic 1",
+  "text": "You work for a retailer that sells clothes to customers around the world. You have been tasked with ensuring that ML models are built in a secure manner. Specifically, you need to protect sensitive customer data that might be used in the models. You have identified four fields containing sensitive data that are being used by your data science team: AGE, IS_EXISTING_CUSTOMER, LATITUDE_LONGITUDE, and SHIRT_SIZE. What should you do with the data before it is made available to the data science team for training purposes?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Tokenize all of the fields using hashed dummy values to replace the real values.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use principal component analysis (PCA) to reduce the four sensitive fields to one PCA vector.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Coarsen the data by putting AGE into quantiles and rounding LATITUDE_LONGTTUDE into single precision. The other two fields are already as coarse as possible.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Remove all sensitive data fields, and ask the data science team to build their models using non-sensitive data.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 31,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.59375
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:14:40.872150",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

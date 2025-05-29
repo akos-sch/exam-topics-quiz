@@ -1,0 +1,46 @@
+{
+  "id": "question_101",
+  "number": 101,
+  "topic": "Topic 1",
+  "text": "You are developing an ML model intended to classify whether X-ray images indicate bone fracture risk. You have trained a ResNet architecture on Vertex AI using a TPU as an accelerator, however you are unsatisfied with the training time and memory usage. You want to quickly iterate your training code but make minimal changes to the code. You also want to minimize impact on the model’s accuracy. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Reduce the number of layers in the model architecture.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Reduce the global batch size from 1024 to 256.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Reduce the dimensions of the images used in the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Configure your model to use bfloat16 instead of float32.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 16,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.875
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:11:37.376112",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

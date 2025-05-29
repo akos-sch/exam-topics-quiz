@@ -1,0 +1,46 @@
+{
+  "id": "question_70",
+  "number": 70,
+  "topic": "Topic 1",
+  "text": "You lead a data science team at a large international corporation. Most of the models your team trains are large-scale models using high-level TensorFlow APIs on AI Platform with GPUs. Your team usually takes a few weeks or months to iterate on a new version of a model. You were recently asked to review your team’s spending. How should you reduce your Google Cloud compute costs without impacting the model’s performance?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use AI Platform to run distributed training jobs with checkpoints.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use AI Platform to run distributed training jobs without checkpoints.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Migrate to training with Kuberflow on Google Kubernetes Engine, and use preemptible VMs with checkpoints.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Migrate to training with Kuberflow on Google Kubernetes Engine, and use preemptible VMs without checkpoints.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 33,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.8181818181818182
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:13.053406",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

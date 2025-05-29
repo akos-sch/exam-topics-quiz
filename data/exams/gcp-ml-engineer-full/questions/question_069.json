@@ -1,0 +1,46 @@
+{
+  "id": "question_69",
+  "number": 69,
+  "topic": "Topic 1",
+  "text": "You need to build an ML model for a social media application to predict whether a user’s submitted profile photo meets the requirements. The application will inform the user if the picture meets the requirements. How should you build a model to ensure that the application does not falsely accept a non-compliant picture?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use AutoML to optimize the model’s recall in order to minimize false negatives.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Use AutoML to optimize the model’s F1 score in order to balance the accuracy of false positives and false negatives.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Vertex AI Workbench user-managed notebooks to build a custom model that has three times as many examples of pictures that meet the profile photo requirements.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use Vertex AI Workbench user-managed notebooks to build a custom model that has three times as many examples of pictures that do not meet the profile photo requirements.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 81,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.4474
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:09.177408",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

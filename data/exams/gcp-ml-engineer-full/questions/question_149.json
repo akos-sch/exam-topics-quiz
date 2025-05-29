@@ -1,0 +1,52 @@
+{
+  "id": "question_149",
+  "number": 149,
+  "topic": "Topic 1",
+  "text": "You recently deployed an ML model. Three months after deployment, you notice that your model is underperforming on certain subgroups, thus potentially leading to biased results. You suspect that the inequitable performance is due to class imbalances in the training data, but you cannot collect more data. What should you do? (Choose two.)",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Remove training examples of high-performing subgroups, and retrain the model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Add an additional objective to penalize the model more for errors made on the minority class, and retrain the model",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Remove the features that have the highest correlations with the majority class.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Upsample or reweight your existing training data, and retrain the model",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "E",
+      "text": "Redeploy the model, and provide a label explaining the model's behavior to users.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "BD",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 14,
+    "vote_distribution": {},
+    "most_voted_answer": "BD",
+    "confidence_score": 1.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:15:25.831045",
+    "source_url": "data/input/page-3.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

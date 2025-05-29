@@ -1,0 +1,46 @@
+{
+  "id": "question_185",
+  "number": 185,
+  "topic": "Topic 1",
+  "text": "You have developed a BigQuery ML model that predicts customer chum, and deployed the model to Vertex AI Endpoints. You want to automate the retraining of your model by using minimal additional code when model feature values change. You also want to minimize the number of times that your model is retrained to reduce training costs. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1 Enable request-response logging on Vertex AI Endpoints<br/>2. Schedule a TensorFlow Data Validation job to monitor prediction drift<br/>3. Execute model retraining if there is significant distance between the distributions",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "1. Enable request-response logging on Vertex AI Endpoints<br/>2. Schedule a TensorFlow Data Validation job to monitor training/serving skew<br/>3. Execute model retraining if there is significant distance between the distributions",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "1. Create a Vertex AI Model Monitoring job configured to monitor prediction drift<br/>2. Configure alert monitoring to publish a message to a Pub/Sub queue when a monitoring alert is detected<br/>3. Use a Cloud Function to monitor the Pub/Sub queue, and trigger retraining in BigQuery",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "1. Create a Vertex AI Model Monitoring job configured to monitor training/serving skew<br/>2. Configure alert monitoring to publish a message to a Pub/Sub queue when a monitoring alert is detected<br/>3. Use a Cloud Function to monitor the Pub/Sub queue, and trigger retraining in BigQuery",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 38,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.53
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:18:04.584283",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

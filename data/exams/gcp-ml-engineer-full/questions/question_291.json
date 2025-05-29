@@ -1,0 +1,46 @@
+{
+  "id": "question_291",
+  "number": 291,
+  "topic": "Topic 1",
+  "text": "You work for a hospital. You received approval to collect the necessary patient data, and you trained a Vertex AI tabular AutoML model that calculates patients' risk score for hospital admission. You deployed the model. However, you're concerned that patient demographics might change over time and alter the feature interactions and impact prediction accuracy. You want to be alerted if feature interactions change, and you want to understand the importance of the features for the predictions. You want your alerting approach to minimize cost. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a feature drift monitoring job. Set the sampling rate to 1 and the monitoring frequency to weekly.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Create a feature drift monitoring job. Set the sampling rate to 0.1 and the monitoring frequency to weekly.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Create a feature attribution drift monitoring job. Set the sampling rate to 1 and the monitoring frequency to weekly.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Create a feature attribution drift monitoring job. Set the sampling rate to 0.1 and the monitoring frequency to weekly.",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 8,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 87.5
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:00.177025",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

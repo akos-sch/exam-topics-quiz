@@ -1,0 +1,46 @@
+{
+  "id": "question_309",
+  "number": 309,
+  "topic": "Topic 1",
+  "text": "You are developing a natural language processing model that analyzes customer feedback to identify positive, negative, and neutral experiences. During the testing phase, you notice that the model demonstrates a significant bias against certain demographic groups, leading to skewed analysis results. You want to address this issue following Google's responsible AI practices. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use Vertex AI's model evaluation lo assess bias in the model's predictions, and use post-processing to adjust outputs for identified demographic discrepancies.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Implement a more complex model architecture that can capture nuanced patterns in language to reduce bias.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Audit the training dataset to identify underrepresented groups and augment the dataset with additional samples before retraining the model.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Use Vertex Explainable AI to generate explanations and systematically adjust the predictions to address identified biases.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 1,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:27:10.254284",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

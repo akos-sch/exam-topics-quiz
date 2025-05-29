@@ -1,0 +1,46 @@
+{
+  "id": "question_79",
+  "number": 79,
+  "topic": "Topic 1",
+  "text": "You need to train a natural language model to perform text classification on product descriptions that contain millions of examples and 100,000 unique words. You want to preprocess the words individually so that they can be fed into a recurrent neural network. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a hot-encoding of words, and feed the encodings into your model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Identify word embeddings from a pre-trained model, and use the embeddings in your model.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Sort the words by frequency of occurrence, and use the frequencies as the encodings in your model.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Assign a numerical value to each word from 1 to 100,000 and feed the values as inputs in your model.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 8,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.875
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:47.446276",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

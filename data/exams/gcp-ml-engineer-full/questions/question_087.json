@@ -1,0 +1,46 @@
+{
+  "id": "question_87",
+  "number": 87,
+  "topic": "Topic 1",
+  "text": "You have been given a dataset with sales predictions based on your company’s marketing activities. The data is structured and stored in BigQuery, and has been carefully managed by a team of data analysts. You need to prepare a report providing insights into the predictive capabilities of the data. You were asked to run several ML models with different levels of sophistication, including simple models and multilayered neural networks. You only have a few hours to gather the results of your experiments. Which Google Cloud tools should you use to complete this task in the most efficient and self-serviced way?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use BigQuery ML to run several regression models, and analyze their performance.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Read the data from BigQuery using Dataproc, and run several models using SparkML.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Use Vertex AI Workbench user-managed notebooks with scikit-learn code for a variety of ML algorithms and performance metrics.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Train a custom TensorFlow model with Vertex AI, reading the data from BigQuery featuring a variety of ML algorithms.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 31,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.7419354838709677
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:10:22.183296",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

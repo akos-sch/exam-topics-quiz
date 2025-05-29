@@ -1,0 +1,46 @@
+{
+  "id": "question_84",
+  "number": 84,
+  "topic": "Topic 1",
+  "text": "Your company manages an application that aggregates news articles from many different online sources and sends them to users. You need to build a recommendation model that will suggest articles to readers that are similar to the articles they are currently reading. Which approach should you use?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create a collaborative filtering system that recommends articles to a user based on the user’s past behavior.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Encode all articles into vectors using word2vec, and build a model that returns articles based on vector similarity.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Build a logistic regression model for each user that predicts whether an article should be recommended to a user.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Manually label a few hundred articles, and then train an SVM classifier based on the manually classified articles that categorizes additional articles into their respective categories.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 19,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.8947368421052632
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:10:08.459488",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

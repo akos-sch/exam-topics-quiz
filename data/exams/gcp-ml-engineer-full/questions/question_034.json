@@ -1,0 +1,46 @@
+{
+  "id": "question_34",
+  "number": 34,
+  "topic": "Topic 1",
+  "text": "You need to design a customized deep neural network in Keras that will predict customer purchases based on their purchase history. You want to explore model performance using multiple model architectures, store training data, and be able to compare the evaluation metrics in the same dashboard. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Create multiple models using AutoML Tables.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Automate multiple training runs using Cloud Composer.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Run multiple training jobs on AI Platform with similar job names.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Create an experiment in Kubeflow Pipelines to organize multiple runs.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 20,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 85.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:06:27.348937",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

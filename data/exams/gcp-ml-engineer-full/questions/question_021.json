@@ -1,0 +1,46 @@
+{
+  "id": "question_21",
+  "number": 21,
+  "topic": "Topic 1",
+  "text": "You have deployed multiple versions of an image classification model on AI Platform. You want to monitor the performance of the model versions over time. How should you perform this comparison?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Compare the loss performance for each model on a held-out dataset.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Compare the loss performance for each model on the validation data.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Compare the receiver operating characteristic (ROC) curve for each model using the What-If Tool.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Compare the mean average precision across the models using the Continuous Evaluation feature.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 32,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.4358974358974359
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:05:34.175375",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

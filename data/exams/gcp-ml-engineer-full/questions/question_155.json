@@ -1,0 +1,46 @@
+{
+  "id": "question_155",
+  "number": 155,
+  "topic": "Topic 1",
+  "text": "You are training an object detection machine learning model on a dataset that consists of three million X-ray images, each roughly 2 GB in size. You are using Vertex AI Training to run a custom training application on a Compute Engine instance with 32-cores, 128 GB of RAM, and 1 NVIDIA P100 GPU. You notice that model training is taking a very long time. You want to decrease training time without sacrificing model performance. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Increase the instance memory to 512 GB, and increase the batch size.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Replace the NVIDIA P100 GPU with a K80 GPU in the training job.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Enable early stopping in your Vertex AI Training job.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Use the tf.distribute.Strategy API and run a distributed training job.",
+      "is_most_voted": true,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 17,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.875
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:15:51.125504",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "question_301",
+  "number": 301,
+  "topic": "Topic 1",
+  "text": "You are an ML engineer at a bank. You need to build a solution that provides transparent and understandable explanations for AI-driven decisions for loan approvals, credit limits, and interest rates. You want to build this system to require minimal operational overhead. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Deploy the Learning Interpretability Tool (LIT) on App Engine to provide explainability and visualization of the output.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Use Vertex Explainable AI to generate feature attributions, and use feature-based explanations for your models.",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Use AutoML Tables with built-in explainability features, and use Shapley values for explainability.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Deploy pre-trained models from TensorFlow Hub to provide explainability using visualization tools.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 2,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.0
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:26:39.222584",
+    "source_url": "data/input/page-7.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

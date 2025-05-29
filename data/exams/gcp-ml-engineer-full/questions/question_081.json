@@ -1,0 +1,46 @@
+{
+  "id": "question_81",
+  "number": 81,
+  "topic": "Topic 1",
+  "text": "Your data science team has requested a system that supports scheduled model retraining, Docker containers, and a service that supports autoscaling and monitoring for online prediction requests. Which platform components should you choose for this system?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Vertex AI Pipelines and App Engine",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Vertex AI Pipelines, Vertex AI Prediction, and Vertex AI Model Monitoring",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "C",
+      "text": "Cloud Composer, BigQuery ML, and Vertex AI Prediction",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Cloud Composer, Vertex AI Training with custom containers, and App Engine",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "B",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 23,
+    "vote_distribution": {},
+    "most_voted_answer": "B",
+    "confidence_score": 0.75
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:09:55.389618",
+    "source_url": "data/input/page-2.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

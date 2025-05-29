@@ -1,0 +1,46 @@
+{
+  "id": "question_181",
+  "number": 181,
+  "topic": "Topic 1",
+  "text": "You work for a bank with strict data governance requirements. You recently implemented a custom model to detect fraudulent transactions. You want your training code to download internal data by using an API endpoint hosted in your project’s network. You need the data to be accessed in the most secure way, while mitigating the risk of data exfiltration. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Enable VPC Service Controls for peerings, and add Vertex AI to a service perimeter.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Create a Cloud Run endpoint as a proxy to the data. Use Identity and Access Management (IAM) authentication to secure access to the endpoint from the training job.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Configure VPC Peering with Vertex AI, and specify the network of the training job.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Download the data to a Cloud Storage bucket before calling the training job.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 18,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.6666666666666666
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:17:48.257499",
+    "source_url": "data/input/page-4.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

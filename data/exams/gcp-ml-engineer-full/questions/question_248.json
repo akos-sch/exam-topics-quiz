@@ -1,0 +1,46 @@
+{
+  "id": "question_248",
+  "number": 248,
+  "topic": "Topic 1",
+  "text": "You trained a model packaged it with a custom Docker container for serving, and deployed it to Vertex AI Model Registry. When you submit a batch prediction job, it fails with this error: \"Error model server never became ready. Please validate that your model file or container configuration are valid. \" There are no additional errors in the logs. What should you do?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Add a logging configuration to your application to emit logs to Cloud Logging",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Change the HTTP port in your model’s configuration to the default value of 8080",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Change the healthRoute value in your model’s configuration to /healthcheck",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Pull the Docker image locally, and use the docker run command to launch it locally. Use the docker logs command to explore the error logs",
+      "is_most_voted": false,
+      "is_correct": true
+    }
+  ],
+  "correct_answer": "D",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 16,
+    "vote_distribution": {},
+    "most_voted_answer": "D",
+    "confidence_score": 0.625
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:22:57.830747",
+    "source_url": "data/input/page-5.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

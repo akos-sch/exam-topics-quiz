@@ -1,0 +1,46 @@
+{
+  "id": "question_284",
+  "number": 284,
+  "topic": "Topic 1",
+  "text": "You have a custom job that runs on Vertex AI on a weekly basis. The job is implemented using a proprietary ML workflow that produces the datasets, models, and custom artifacts, and sends them to a Cloud Storage bucket. Many different versions of the datasets and models were created. Due to compliance requirements, your company needs to track which model was used for making a particular prediction, and needs access to the artifacts for each model. How should you configure your workflows to meet these requirements?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the Vertex AI Metadata API inside the custom job to create context, execution, and artifacts for each model, and use events to link them together.",
+      "is_most_voted": true,
+      "is_correct": true
+    },
+    {
+      "letter": "B",
+      "text": "Create a Vertex AI experiment, and enable autologging inside the custom job.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Configure a TensorFlow Extended (TFX) ML Metadata database, and use the ML Metadata API.",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "D",
+      "text": "Register each model in Vertex AI Model Registry, and use model labels to store the related dataset and model information.",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "A",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 10,
+    "vote_distribution": {},
+    "most_voted_answer": "A",
+    "confidence_score": 0.8
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:25:31.937778",
+    "source_url": "data/input/page-6.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}

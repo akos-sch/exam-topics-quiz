@@ -1,0 +1,46 @@
+{
+  "id": "question_10",
+  "number": 10,
+  "topic": "Topic 1",
+  "text": "Your team needs to build a model that predicts whether images contain a driver's license, passport, or credit card. The data engineering team already built the pipeline and generated a dataset composed of 10,000 images with driver's licenses, 1,000 images with passports, and 1,000 images with credit cards. You now have to train a model with the following label map: [`˜drivers_license', `˜passport', `˜credit_card']. Which loss function should you use?",
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Categorical hinge",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "B",
+      "text": "Binary cross-entropy",
+      "is_most_voted": false,
+      "is_correct": false
+    },
+    {
+      "letter": "C",
+      "text": "Categorical cross-entropy",
+      "is_most_voted": false,
+      "is_correct": true
+    },
+    {
+      "letter": "D",
+      "text": "Sparse categorical cross-entropy",
+      "is_most_voted": false,
+      "is_correct": false
+    }
+  ],
+  "correct_answer": "C",
+  "explanation": "",
+  "voting_data": {
+    "total_votes": 49,
+    "vote_distribution": {},
+    "most_voted_answer": "C",
+    "confidence_score": 0.51
+  },
+  "metadata": {
+    "extraction_timestamp": "2025-05-29T12:04:34.015300",
+    "source_url": "data/input/page-1.html",
+    "page_number": 1,
+    "difficulty_level": ""
+  }
+}
