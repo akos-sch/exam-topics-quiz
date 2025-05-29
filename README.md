@@ -71,71 +71,7 @@ This project uses `uv` for package management because it provides:
 
 The application provides several commands for different operations:
 
-### 1. Extract Exam Data
-
-#### Option A: Direct Web Extraction
-
-Extract questions directly from ExamTopics website:
-
-```bash
-# Extract from a specific exam URL
-uv run cert-examtopics-quiz extract "https://www.examtopics.com/exams/google/professional-machine-learning-engineer/"
-
-# Extract with custom name and limits
-uv run cert-examtopics-quiz extract \
-  "https://www.examtopics.com/exams/google/professional-machine-learning-engineer/" \
-  --name "gcp-ml-engineer" \
-  --max-questions 50 \
-  --verbose
-
-# Extract with authentication (for premium content)
-uv run cert-examtopics-quiz extract \
-  "https://www.examtopics.com/exams/aws/aws-certified-solutions-architect-associate/" \
-  --username "your-email@example.com" \
-  --password "your-password" \
-  --no-discussions
-```
-
-#### Option B: Local HTML File Extraction (Recommended)
-
-If you encounter captcha or authentication issues, you can manually download the HTML file and extract from it:
-
-**Step 1: Download HTML file**
-```bash
-# Use the helper script to download the page
-python scripts/download_examtopics_html.py \
-  "https://www.examtopics.com/exams/google/professional-machine-learning-engineer/view/2/" \
-  ml_engineer_exam.html
-
-# Or manually save the page:
-# 1. Open the exam URL in your browser
-# 2. Solve any captcha if present
-# 3. Save the complete webpage (Ctrl+S or Cmd+S)
-# 4. Save as "Webpage, Complete" or "HTML Only"
-```
-
-**Step 2: Extract from local file**
-```bash
-# Extract questions from the downloaded HTML file
-uv run cert-examtopics-quiz extract-local ml_engineer_exam.html --name "gcp-ml-engineer"
-
-# Extract with limits and options
-uv run cert-examtopics-quiz extract-local \
-  exam_page.html \
-  --name "my-exam" \
-  --max-questions 50 \
-  --no-discussions \
-  --verbose
-```
-
-**Benefits of Local Extraction:**
-- ✅ Bypasses captcha and authentication issues
-- ✅ Works with premium ExamTopics content
-- ✅ Faster processing (no network delays)
-- ✅ Can be repeated without re-downloading
-- ✅ Works offline
-
-### 2. Take a Quiz
+### 1. Take a Quiz
 
 Start an interactive quiz session:
 
@@ -152,6 +88,96 @@ The quiz interface will guide you through:
 - Configuring quiz settings (number of questions, time limits, etc.)
 - Taking the quiz with real-time feedback
 - Reviewing detailed results and performance analysis
+
+
+### 2. Extract Exam Data (in case you want to extract new exams)
+
+The application provides two main extraction methods to handle different scenarios:
+
+#### Option A: Local HTML File Extraction (Recommended) - Not needed if the `data/exams/gcp-ml-engineer-full` folder exists and is loaded
+
+If you encounter captcha, authentication issues, or want offline processing, you can manually download HTML files and extract from them:
+
+**Step 1: Download HTML file(s)**
+
+```bash
+# Option 1: Manual browser download
+# 1. Open the exam URL in your browser
+# 2. Solve any captcha if present (important!)
+# 3. Log in if you have premium access (optional but recommended)
+# 4. Save the complete webpage (Ctrl+S or Cmd+S)
+# 5. Choose "Webpage, Complete" or "HTML Only"
+```
+
+**Step 2: Extract from local file(s)**
+
+```bash
+# Extract from a single HTML file
+uv run cert-examtopics-quiz extract-local ml_engineer_exam.html --name "gcp-ml-engineer"
+
+# Extract from multiple HTML files in a folder
+uv run cert-examtopics-quiz extract-local exam_pages/ --name "my-exam"
+
+# Extract with options and limits
+uv run cert-examtopics-quiz extract-local \
+  exam_page.html \
+  --name "my-exam" \
+  --max-questions 50 \
+  --no-discussions \
+  --verbose \
+  --debug
+```
+
+**Advanced Features of Local Extraction:**
+- 📁 **Folder processing**: Automatically processes multiple HTML files (e.g., page-1.html, page-2.html)
+- 🔄 **Automatic deduplication**: Removes duplicate questions across multiple files
+- 📊 **Question numbering**: Intelligently extracts and validates question numbers
+- 🎯 **Smart parsing**: Uses multiple CSS selectors to find question cards
+- ✅ **Validation**: Checks for question patterns and content quality
+
+**Benefits of Local Extraction:**
+- ✅ Bypasses captcha and authentication issues
+- ✅ Works with premium ExamTopics content
+- ✅ Faster processing (no network delays)
+- ✅ Can be repeated without re-downloading
+- ✅ Works offline after initial download
+- ✅ Supports batch processing of multiple pages
+- ✅ Automatic deduplication across files
+
+#### Option B: Direct Web Extraction
+
+Extract questions directly from ExamTopics website:
+
+```bash
+# Extract from a specific exam URL (basic usage)
+uv run cert-examtopics-quiz extract "https://www.examtopics.com/exams/google/professional-machine-learning-engineer/"
+
+# Extract with custom name and limits
+uv run cert-examtopics-quiz extract \
+  "https://www.examtopics.com/exams/google/professional-machine-learning-engineer/" \
+  --name "gcp-ml-engineer" \
+  --max-questions 50 \
+  --verbose
+
+# Extract with authentication (for premium content)
+uv run cert-examtopics-quiz extract \
+  "https://www.examtopics.com/exams/aws/aws-certified-solutions-architect-associate/" \
+  --username "your-email@example.com" \
+  --password "your-password" \
+  --no-discussions
+
+# Extract with debug mode for troubleshooting
+uv run cert-examtopics-quiz extract \
+  "https://www.examtopics.com/exams/google/professional-machine-learning-engineer/" \
+  --debug
+```
+
+**Requirements for Web Extraction:**
+- ✅ Google Cloud authentication (for LLM processing)
+- ⚠️ May encounter captcha or rate limiting
+- ⚠️ Requires stable internet connection
+- ⚠️ May need ExamTopics account for premium content
+
 
 ### 3. List Available Exams
 
